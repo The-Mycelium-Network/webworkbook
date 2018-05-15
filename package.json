@@ -1,0 +1,31 @@
+{
+  "name": "moz-a11y-wishlist",
+  "version": "0.0.1",
+  "description": "A collection of issues and tools to improve a11y testing at Mozilla",
+  "main": "pa11y-test.js",
+  "scripts": {
+    "test": "",
+    "test:a11y-dev": "node pa11y-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schalkneethling/moz-a11y-wishlist.git"
+  },
+  "keywords": [
+    "tools",
+    "a11y",
+    "node"
+  ],
+  "author": "Schalk Neethling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schalkneethling/moz-a11y-wishlist/issues"
+  },
+  "homepage": "https://github.com/schalkneethling/moz-a11y-wishlist#readme",
+  "devDependencies": {
+    "fs-extra": "6.0.1",
+    "pa11y": "5.0.3",
+    "pa11y-reporter-html": "1.0.0",
+    "puppeteer": "1.4.0"
+  }
+}
