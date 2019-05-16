@@ -11,3 +11,7 @@ Web accessibility resources, bugs, and communities from around the web
  
  * [Fix an issue](https://codetribute.mozilla.org/projects/a11y) [Mozilla]
  * [Bugs marked with the access keyword on Bugzilla](https://bugzilla.mozilla.org/buglist.cgi?list_id=14717192&o1=substring&v1=access&f1=keywords&resolution=---&classification=Client%20Software&classification=Developer%20Infrastructure&classification=Components&classification=Server%20Software&classification=Other&query_format=advanced)
+
+## Browser Add-Ons
+
+* NoCoffee : [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nocoffee/) | [Chrome](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-GB) ~ NoCoffee vision simulator. Originally written by Aaron Leventhal.
