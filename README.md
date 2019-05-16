@@ -15,3 +15,7 @@ Web accessibility resources, bugs, and communities from around the web
 ## Browser Add-Ons
 
 * NoCoffee : [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nocoffee/) | [Chrome](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-GB) ~ NoCoffee vision simulator. Originally written by Aaron Leventhal.
+
+## Videos and Documentaries
+
+* [Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone](https://www.w3.org/WAI/perspective-videos/) ~ Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.
