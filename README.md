@@ -7,6 +7,11 @@ Web accessibility resources, bugs, and communities from around the web
 * [Voluntary Product Accessibility Template](https://en.wikipedia.org/wiki/Voluntary_Product_Accessibility_Template)
  ~ A Voluntary Product Accessibility Template® (VPAT®) is a table containing information regarding how an information and communications technology (ICT) product or service conforms with Section 508
  
+ ## Learn
+ 
+ * [Accessibility on MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
+ * [Articles on WebAIM](https://webaim.org/articles/)
+ 
  ## Contribute
  
  * [Fix an issue](https://codetribute.mozilla.org/projects/a11y) [Mozilla]
@@ -19,3 +24,4 @@ Web accessibility resources, bugs, and communities from around the web
 ## Videos and Documentaries
 
 * [Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone](https://www.w3.org/WAI/perspective-videos/) ~ Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.
+* [Inclusive Design: Unlearning to Include and Innovate](https://www.youtube.com/watch?v=uE543v8kj50&list=PLYiaJo7rYNXIUOhbjr1KJUlMdqB_6mweL&index=3&t=0s)
