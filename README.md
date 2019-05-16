@@ -1,2 +1,2 @@
-# moz-a11y-wishlist
-A list of issues(wishes) of the accessibility team at Mozilla - Make it happen ;)
+# web-accessibility
+Web accessibility resources, bugs, and communities from around the web
