@@ -25,3 +25,7 @@ Web accessibility resources, bugs, and communities from around the web
 
 * [Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone](https://www.w3.org/WAI/perspective-videos/) ~ Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.
 * [Inclusive Design: Unlearning to Include and Innovate](https://www.youtube.com/watch?v=uE543v8kj50&list=PLYiaJo7rYNXIUOhbjr1KJUlMdqB_6mweL&index=3&t=0s)
+
+## Articles
+
+* [5 Ways to Make Your Web Content More Neurodiversity Inclusive](http://nosmag.org/5-ways-to-make-your-web-content-more-neurodiversity-inclusive/)
