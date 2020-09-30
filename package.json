@@ -1,31 +1,54 @@
 {
-  "name": "moz-a11y-wishlist",
+  "name": "web-accessibility",
   "version": "0.0.1",
-  "description": "A collection of issues and tools to improve a11y testing at Mozilla",
+  "description": "Web accessibility resources, bugs, components, and communities from around the web",
   "main": "pa11y-test.js",
   "scripts": {
-    "test": "",
+    "build:menu": "cd responsive-main-menu && sass ./sass/:./css/ --watch",
     "test:a11y-dev": "node pa11y-test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schalkneethling/moz-a11y-wishlist.git"
+    "url": "git+https://github.com/schalkneethling/web-accessibility.git"
   },
   "keywords": [
     "tools",
     "a11y",
-    "node"
+    "accessibility",
+    "node",
+    "web components",
+    "javascript",
+    "sass",
+    "css",
+    "resources"
   ],
   "author": "Schalk Neethling",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/schalkneethling/moz-a11y-wishlist/issues"
+    "url": "https://github.com/schalkneethling/web-accessibility/issues"
   },
-  "homepage": "https://github.com/schalkneethling/moz-a11y-wishlist#readme",
+  "homepage": "https://github.com/schalkneethling/web-accessibility#readme",
   "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
     "fs-extra": "6.0.1",
     "pa11y": "5.0.3",
     "pa11y-reporter-html": "2.0.0",
-    "puppeteer": "1.13.0"
+    "prettier": "^2.1.2",
+    "puppeteer": "1.13.0",
+    "sass": "^1.26.11",
+    "stylelint": "^13.7.2",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0"
+  },
+  "calavera": {
+    "sass": true,
+    "prettier": true,
+    "eslint": true
   }
 }
