@@ -1,0 +1,10 @@
+.main-menu {
+  display: none;
+
+  @media #{$mq-tablet-and-up} {
+    @supports (display: flex) {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}

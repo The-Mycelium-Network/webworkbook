@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Responsive Menu</title>
+    <link rel="stylesheet" type="text/css" href="css/simple-menu.css" media="screen" />
+</head>
+
+<body>
+    <header class="site-header">
+        <nav id="main-nav-container" class="main-nav" aria-label="Main menu">
+            <button type="button" id="main-menu-toggle" class="ghost main-menu-toggle"
+                aria-expanded="false" aria-controls="main-menu" aria-label="Show Menu">
+            </button>
+            <ul id="main-menu" class="main-menu">
+                <li>
+                    <a href="/" aria-current="page">Home</a>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+                <li>
+                    <a href="/pricing">Pricing</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <script src="js/menu.js" defer></script>
+</body>
+
+</html>
