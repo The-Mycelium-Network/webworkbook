@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" type="text/css" href="css/accordion.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/card.css" media="screen" />
+</head>
+
+<body>
+    <a href="https://www.houtbosch.com/">
+        <img src="media/logo.webp" width="208" alt="Houtbosch Wines logo" />
+    </a>
+    <div id="accordion" class="accordion">
+        <h3 class="accordion-heading">
+            <button type="button" id="section001-heading" class="ghost"
+                aria-expanded="true" aria-controls="section001-panel">Amount</button>
+        </h3>
+        <!-- using a section element instead of a div element with role="region".
+            A section has an implicit role of region if it has an accessible name.
+            The section's accessible name is provided via aria-labelledby -->
+        <section id="section001-panel" class="accordion-panel form-fields-group"
+            aria-labelledby="section001-heading">
+            <div class="form-input-group">
+                <input id="amount-option-1" type="radio" name="amount" value="1" />
+                <label for="amount-option-1">1</label>
+            </div>
+            <div class="form-input-group">
+                <input id="amount-option-2" type="radio" name="amount" value="2" />
+                <label for="amount-option-2">2</label>
+            </div>
+            <div class="form-input-group">
+                <input id="amount-option-3" type="radio" name="amount" value="3" />
+                <label for="amount-option-3">3</label>
+            </div>
+            <div class="form-input-group">
+                <input id="amount-option-4" type="radio" name="amount" value="4" />
+                <label for="amount-option-4">4</label>
+            </div>
+        </section>
+        <h3 class="accordion-heading">
+            <button type="button" id="section002-heading" class="ghost"
+                aria-expanded="false" aria-controls="section002-panel">Selection</button>
+        </h3>
+        <section id="section002-panel" class="accordion-panel"
+            aria-labelledby="section002-heading">
+            <ul class="card-container">
+                <li class="card">
+                    <div class="card-img">
+                        <img src="media/king-george-3.webp" width="398"
+                            alt="Bottle of Houtbosh King George III" />
+                    </div>
+                    <div class="card-content readable-line-length">
+                        <h4>In The Glass</h4>
+                        <p>Soft smooth flavours of cherries, rooibos and a savoury
+                            earthiness. Silky, smooth tannins with an elegant, complex
+                            finish.</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card-img">
+                        <img src="media/marble-ridge.webp" width="398"
+                            alt="Bottle of Houtbosh Marble Ridge" />
+                    </div>
+                    <div class="card-content readable-line-length">
+                        <h4>In The Glass</h4>
+                        <p>A full-bodied dry red with aromatic berry fruit and judicious
+                            oak maturation.</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card-img">
+                        <img src="media/chardonnay.webp" width="398"
+                            alt="Bottle of Houtbosh Chardonnay" />
+                    </div>
+                    <div class="card-content readable-line-length">
+                        <h4>In The Glass</h4>
+                        <p>Well-rounded full flavors of lime, grapefruit and a creamy
+                            butterscotch, with a lingering and complex aftertaste and a
+                            well-integrated acidity.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <p>Built based on <a
+            href="https://www.w3.org/TR/wai-aria-practices-1.1/#accordion">WAI-ARIA
+            Design Patterns and Widgets</a></p>
+
+    <script src="js/accordion.js"></script>
+</body>
+
+</html>
