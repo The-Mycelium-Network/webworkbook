@@ -23,22 +23,25 @@
             The section's accessible name is provided via aria-labelledby -->
         <section id="section001-panel" class="accordion-panel form-fields-group"
             aria-labelledby="section001-heading">
-            <div class="form-input-group">
-                <input id="amount-option-1" type="radio" name="amount" value="1" />
-                <label for="amount-option-1">1</label>
-            </div>
-            <div class="form-input-group">
-                <input id="amount-option-2" type="radio" name="amount" value="2" />
-                <label for="amount-option-2">2</label>
-            </div>
-            <div class="form-input-group">
-                <input id="amount-option-3" type="radio" name="amount" value="3" />
-                <label for="amount-option-3">3</label>
-            </div>
-            <div class="form-input-group">
-                <input id="amount-option-4" type="radio" name="amount" value="4" />
-                <label for="amount-option-4">4</label>
-            </div>
+            <fieldset>
+                <legend>Choose the number of cases</legend>
+                <div class="form-input-group">
+                    <input id="amount-option-1" type="radio" name="amount" value="1" />
+                    <label for="amount-option-1">1</label>
+                </div>
+                <div class="form-input-group">
+                    <input id="amount-option-2" type="radio" name="amount" value="2" />
+                    <label for="amount-option-2">2</label>
+                </div>
+                <div class="form-input-group">
+                    <input id="amount-option-3" type="radio" name="amount" value="3" />
+                    <label for="amount-option-3">3</label>
+                </div>
+                <div class="form-input-group">
+                    <input id="amount-option-4" type="radio" name="amount" value="4" />
+                    <label for="amount-option-4">4</label>
+                </div>
+            </fieldset>
         </section>
         <h3 class="accordion-heading">
             <button type="button" id="section002-heading" class="ghost"
