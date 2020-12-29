@@ -1,0 +1,58 @@
+body {
+  font: 18px/1.5 sans-serif;
+}
+
+.accordion-heading,
+.accordion-panel {
+  margin: 0;
+}
+
+.accordion-heading button {
+  background-color: #381111;
+  color: #fff;
+  display: block;
+  font-size: 1.2rem;
+  padding: 12px;
+  text-align: left;
+  width: 100%;
+}
+
+.accordion-heading button:hover,
+.accordion-heading button:focus {
+  background-color: #6d0101;
+}
+
+.accordion-heading [aria-expanded="true"] {
+  background-color: #6d0101;
+}
+
+.accordion-panel {
+  background-color: #dde6ee;
+  display: none;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+
+.ghost {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.form-fields-group {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.form-fields-group.show {
+  display: flex;
+}
+
+.show {
+  display: block;
+}
+
+.readable-line-length {
+  max-width: 42rem;
+  max-width: 70ch;
+}
