@@ -18,8 +18,9 @@ Web accessibility resources, bugs, and communities from around the web
  
  ## Learn
  
- * [Accessibility on MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
- * [Articles on WebAIM](https://webaim.org/articles/)
+ - [Accessibility on MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
+ - [Articles on WebAIM](https://webaim.org/articles/)
+ - [Essential Components of Web Accessibility (how WCAG and ATAG are inter-related)](https://www.w3.org/WAI/intro/components.php)
  
  ## Contribute
  
