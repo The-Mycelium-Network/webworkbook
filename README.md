@@ -12,6 +12,10 @@ Web accessibility resources, bugs, and communities from around the web
  - [Web Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
  - [Authoring Tool Accessibility Guidelines (ATAG) 2.0](https://www.w3.org/TR/ATAG20/)
  
+ - [WCAG 2.1 Specification](https://www.w3.org/TR/WCAG21/)
+ - [What's New in WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/)
+ - [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/)
+ 
  ## Learn
  
  * [Accessibility on MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
