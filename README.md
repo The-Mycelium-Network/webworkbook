@@ -12,9 +12,17 @@ Web accessibility resources, bugs, and communities from around the web
  - [Web Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
  - [Authoring Tool Accessibility Guidelines (ATAG) 2.0](https://www.w3.org/TR/ATAG20/)
  
+ ### Web Content Accessibility Guidelines
+ 
  - [WCAG 2.1 Specification](https://www.w3.org/TR/WCAG21/)
  - [What's New in WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/)
  - [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/)
+ 
+ ### Accessible Rich Internet Applications
+ 
+ - [WAI-ARIA Overview](http://www.w3.org/WAI/intro/aria.php)
+ - [WAI-ARIA 1.0](http://www.w3.org/TR/wai-aria/)
+ - [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/)
  
  ## Learn
  
