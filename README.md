@@ -7,6 +7,11 @@ Web accessibility resources, bugs, and communities from around the web
 * [Voluntary Product Accessibility Template](https://en.wikipedia.org/wiki/Voluntary_Product_Accessibility_Template)
  ~ A Voluntary Product Accessibility Template® (VPAT®) is a table containing information regarding how an information and communications technology (ICT) product or service conforms with Section 508
  
+ ## Standards
+ 
+ - [Web Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
+ - [Authoring Tool Accessibility Guidelines (ATAG) 2.0](https://www.w3.org/TR/ATAG20/)
+ 
  ## Learn
  
  * [Accessibility on MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
@@ -20,6 +25,10 @@ Web accessibility resources, bugs, and communities from around the web
 ## Browser Add-Ons
 
 * NoCoffee : [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nocoffee/) | [Chrome](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-GB) ~ NoCoffee vision simulator. Originally written by Aaron Leventhal.
+
+## Tools
+
+- [Color Oracle - Color blindness simulator(Mac, Windows, Linux)](http://www.colororacle.org/index.html)
 
 ## Videos and Documentaries
 
