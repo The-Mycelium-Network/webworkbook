@@ -44,6 +44,8 @@ Web accessibility resources, bugs, and communities from around the web
 
 - [Color Oracle - Color blindness simulator(Mac, Windows, Linux)](http://www.colororacle.org/index.html)
 - [Learn how to use Zoom on MacOS](https://mcmw.abilitynet.org.uk/macos-mojave-magnifying-screen)
+- [aXe for Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/)
+- [aXe for Chrome](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
 
 ## Videos and Documentaries
 
