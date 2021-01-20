@@ -24,6 +24,12 @@ Web accessibility resources, bugs, and communities from around the web
  - [WAI-ARIA 1.0](http://www.w3.org/TR/wai-aria/)
  - [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/)
  
+ ### Research on improving the web for peole with Cognitive Disabilities
+ 
+ - [Cognitive disabilities user research](https://w3c.github.io/coga/user-research/)
+ - [Cognitive Accessibility Roadmap and Gap Analysis](https://w3c.github.io/coga/gap-analysis/)
+ - [Issue Papers for The Cognitive and Learning Disabilities Accessibility Task Force (COGA)](https://w3c.github.io/coga/issue-papers/)
+ 
  ## Learn
  
  - [Accessibility on MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
