@@ -21,3 +21,14 @@
 | Talkback with Firefox | Local context menu (swipe up then right), then select landmarks |
 | VoiceOver with Safari (macOS) | Not available |
 | Narrator with Edge | D |
+
+## Navigate to the Main Content Landmark
+
+| Screen Reader & Browser | Command |
+| ----------------------- | ------- |
+| JAWS with Chrome, Firefox, IE | Q |
+| NVDA with Firefox, Chrome | Not available |
+| VoiceOver with Safari (iOS) | Not available |
+| Talkback with Firefox | Not available |
+| VoiceOver with Safari (macOS) | Not available |
+| Narrator with Edge | Caps Lock + N |
