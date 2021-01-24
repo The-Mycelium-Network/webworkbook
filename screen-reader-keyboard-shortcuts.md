@@ -58,3 +58,15 @@ Thanks to [Deque](https://www.deque.com/) for making these shortcuts tables avai
 | VoiceOver with Safari (macOS) | Control + Option + Command + H |
 | Narrator with Edge | H |
 | Window-Eyes with IE | H |
+
+## Navigate to headings of a certain level
+
+| Screen Reader & Browser | Command |
+| ----------------------- | ------- |
+| JAWS with Chrome, Firefox, IE | 1-6 |
+| NVDA with Firefox, Chrome | 1-6 |
+| VoiceOver with Safari (iOS) | Not available |
+| Talkback with Firefox | Not available |
+| VoiceOver with Safari (macOS) | Not available |
+| Narrator with Edge | Not available |
+| Window-Eyes with IE | 1-6 then H |
