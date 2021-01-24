@@ -32,3 +32,15 @@
 | Talkback with Firefox | Not available |
 | VoiceOver with Safari (macOS) | Not available |
 | Narrator with Edge | Caps Lock + N |
+
+## List all headings
+
+| Screen Reader & Browser | Command |
+| ----------------------- | ------- |
+| JAWS with Chrome, Firefox, IE | Insert + F6 |
+| NVDA with Firefox, Chrome | Insert + F7 (to open Elements List), then select headings |
+| VoiceOver with Safari (iOS) | Not available |
+| Talkback with Firefox | Not available |
+| VoiceOver with Safari (macOS) | Control + Option + U (to open rotor), then use left/right arrows to select headings |
+| Narrator with Edge | Not available |
+| Window-Eyes with IE | Insert + Tab (to open Elements List), then alt + H to select headings |
