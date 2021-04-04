@@ -32,7 +32,7 @@
     "eslint": "^7.17.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-import": "^2.22.1",
-    "fs-extra": "9.0.1",
+    "fs-extra": "9.1.0",
     "pa11y": "5.3.0",
     "pa11y-reporter-html": "2.0.0",
     "prettier": "^2.2.1",
