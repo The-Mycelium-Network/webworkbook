@@ -4,6 +4,7 @@
   "description": "Web accessibility resources, bugs, components, and communities from around the web",
   "main": "pa11y-test.js",
   "scripts": {
+    "build:a11ynav": "cd a11y-nav && sass ./sass/:./css/ --watch",
     "build:menu": "cd responsive-main-menu && sass ./sass/:./css/ --watch",
     "test:a11y-dev": "node pa11y-test.js"
   },
