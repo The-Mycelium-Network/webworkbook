@@ -1,0 +1,27 @@
+:root {
+  --background-color: #000;
+  --lightbulb-outline-color: #212121;
+  --socket-color: #c4c6c8;
+  --online: #f8ed36;
+  --offline: #686b6d;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.lightbulb {
+  fill: var(--lightbulb-outline-color);
+}
+
+.light {
+  fill: var(--online);
+}
+
+.offline .light {
+  fill: var(--offline);
+}
+
+.socket {
+  fill: var(--socket-color);
+}
