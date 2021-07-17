@@ -64,3 +64,5 @@ Web accessibility resources, bugs, and communities from around the web
 
 * [5 Ways to Make Your Web Content More Neurodiversity Inclusive](http://nosmag.org/5-ways-to-make-your-web-content-more-neurodiversity-inclusive/)
 * [Designing for Global Accessibility, Part I](https://design.google/library/designing-global-accessibility-part-1/)
+* [Designing for Global Accessibility, Part II](https://design.google/library/designing-global-accessibility-part-2/)
+* [Designing for Global Accessibility, Part III](https://design.google/library/designing-global-accessibility-part-iii/)
