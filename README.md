@@ -53,6 +53,7 @@ Web accessibility resources, bugs, and communities from around the web
 - [aXe for Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/)
 - [aXe for Chrome](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
 - [Photosensitive Epilepsy Analysis Tool](https://trace.umd.edu/peat/)
+- [Accessibility Scanner for Android apps](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor)
 
 ## Videos and Documentaries
 
