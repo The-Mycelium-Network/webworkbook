@@ -1,5 +1,6 @@
 :root {
   --background-color: #000;
+  --foreground-color: #fff;
   --lightbulb-outline-color: #212121;
   --socket-color: #c4c6c8;
   --online: #f8ed36;
@@ -8,6 +9,7 @@
 
 body {
   background-color: var(--background-color);
+  color: var(--foreground-color);
 }
 
 .lightbulb {
