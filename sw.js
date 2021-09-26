@@ -7,12 +7,13 @@
 // by the browser. Therefore, be careful what
 // you place in the global scope.
 
-const VERSION = 5;
+const VERSION = 8;
 const cacheName = `online-status-tracker-${VERSION}`;
 
 const cacheItems = ["/", "/js/index.js", "/css/main.css"];
 
 let isOnline = true;
+let backgroundCachingInProgress = false;
 
 self.addEventListener("install", onInstall);
 self.addEventListener("activate", onActivate);
@@ -26,6 +27,7 @@ init().catch(console.error);
 async function init() {
   await sendMessage({ requestStatusUpdate: true });
   await cacheFiles();
+  return backgroundCache();
 }
 
 // will receive an event object
@@ -127,6 +129,7 @@ async function handleActivation() {
   // service worker has taken control.
   await clients.claim();
   console.info(`Service worker (${VERSION}) active.`);
+  backgroundCache(true);
 }
 
 async function clearCaches() {
@@ -179,4 +182,81 @@ async function cacheFiles(forceRelead = false) {
       }
     })
   );
+}
+
+const delay = (delayDuration) => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve("time elapsed");
+    }, delayDuration);
+  });
+};
+
+async function backgroundCache(forceRelead = false) {
+  const backgroundCacheList = ["/about/", "/portfolio/", "/contact/"];
+  // if this process is already running,
+  // just return.
+  if (backgroundCachingInProgress) {
+    return;
+  }
+
+  // we wait 5 seconds for initial page load
+  // before we start background caching
+  await delay(5000);
+  backgroundCachingInProgress = true;
+
+  if (backgroundCacheList.length > 0) {
+    return cachePages(backgroundCacheList.shift());
+  } else {
+    backgroundCachingInProgress = false;
+  }
+
+  async function cachePages(page) {
+    const cache = await caches.open(cacheName);
+
+    let needCaching = true;
+
+    // if we do not want to force a reload of all pages
+    if (!forceRelead) {
+      // first check to see whether the page is already in the cache.
+      const res = await cache.match(page);
+      // if it is, nothing to do so, just return
+      if (res) {
+        needCaching = false;
+        return;
+      }
+    }
+
+    if (needCaching && isOnline) {
+      // wait 5 seconds between each page cache
+      await delay(5000);
+
+      try {
+        const fetchOptions = {
+          method: "GET",
+          cahce: "no-cache",
+          credentials: "omit",
+        };
+
+        const res = await fetch(page, fetchOptions);
+        if (res && res.ok) {
+          await cache.put(page, res.clone());
+          needCaching = false;
+        }
+      } catch (error) {
+        console.error(`Error caching resource: ${error.toString()}`);
+      }
+
+      // if we failed above, try again
+      if (needCaching) {
+        return cachePages(page);
+      }
+    }
+
+    if (backgroundCacheList.length > 0) {
+      return cachePages(backgroundCacheList.shift());
+    } else {
+      backgroundCachingInProgress = false;
+    }
+  }
 }
