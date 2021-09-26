@@ -12,6 +12,10 @@ body {
   color: var(--foreground-color);
 }
 
+a {
+  color: var(--foreground-color);
+}
+
 .lightbulb {
   fill: var(--lightbulb-outline-color);
 }
