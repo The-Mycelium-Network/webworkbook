@@ -55,6 +55,10 @@ Web accessibility resources, bugs, and communities from around the web
 - [Photosensitive Epilepsy Analysis Tool](https://trace.umd.edu/peat/)
 - [Accessibility Scanner for Android apps](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor)
 
+## Testing
+
+- [Fable - Digital accessibility, powered by people with disabilities.](https://makeitfable.com/)
+
 ## Videos and Documentaries
 
 * [Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone](https://www.w3.org/WAI/perspective-videos/) ~ Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.
