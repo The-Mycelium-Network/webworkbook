@@ -42,5 +42,38 @@ The following are lists of common considerations to take into account when desig
 - [ ] Links, buttons, and controls must have a visible :focus state and should have a visible :hover state.
 - [ ] With session time-outs, warn users before the time expires (e.g. an accessible dialog or alert), and give them the option to extend the session. Ensure the warning itself allows for slow responses. A recommended minimum response time is 2 minutes.
 - [ ] Provide [large click targets](https://support.google.com/accessibility/android/answer/7101858?hl=en) for users who have movements that are difficult to control.
+
+## Design Considerations for Users with Speech Disabilities
+
+- [ ] Don't depend on voice input
+
+## Design Considerations for Users with Cognitive Disabilities
+
+### For users with lower comprehension
+
+- [ ] Simplify the interface as much as possible.
+- [ ] Simplify the content as much as possible.
+- [ ] Keep videos and audio as short as possible.
+- [ ] Limit the number of choices on the screen.
+- [ ] Provide help features.
+- [ ] Test the usability of the interface with actual users
+
+### For users with memory loss
+
+- [ ] Retain information across screens, and within a path.
+- [ ] Provide help features.
  
+### For users with distractibility
+
+- [ ] Reduce or eliminate distractions
+
+## Design Considerations for Users with Reading Disabilities
+
+- [ ] Supplement text with illustrations, videos, audio, etc.
+- [ ] Avoid the highest level of contrast for text against background (e.g., black on white)
+
+## Design Considerations for Users with Seizures
+
+- [ ] Don't include videos, animations, or transitions with flashing light sequences of 3 times or more per second.
+
 Thank you to [Deque](https://www.deque.com/) for the above information.
