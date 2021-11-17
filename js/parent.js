@@ -1,7 +1,10 @@
 (function () {
-  console.log("sending postmessage");
-  const frame = document.getElementById("frame");
-  frame.contentWindow.postMessage({ message: "Hello from parent" }, "*");
+  const button = document.getElementById("send");
+
+  button.addEventListener("click", function () {
+    const frame = document.getElementById("frame");
+    frame.contentWindow.postMessage({ message: "Hello from parent" }, "*");
+  });
 
   window.addEventListener(
     "message",
