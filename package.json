@@ -1,0 +1,12 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "A two route server using http.createServer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["node","javascript","http","server"],
+  "author": "Schalk Neethling",
+  "license": "MIT"
+}
