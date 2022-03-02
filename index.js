@@ -1,7 +1,14 @@
-var http = require("http");
+import http from "http";
+import fetch from "node-fetch";
+
+async function getWeatherData(city) {
+  const weatherDBBaseURL = "https://weatherdbi.herokuapp.com/data/weather";
+  const response = await fetch(`${weatherDBBaseURL}/${city}`);
+  return response.json();
+}
 
 http
-  .createServer(function (req, res) {
+  .createServer(async function (req, res) {
     if (req.url === "/slow-response") {
       setTimeout(() => {
         const msg = {
@@ -12,15 +19,22 @@ http
         res.end();
       }, 3000);
     } else if (req.url.includes("/weather")) {
-      console.log(req.url);
-      setTimeout(() => {
-        const msg = {
-          msg: "I am as slow as a snail",
-        };
+      const requestURL = new URL(req.url, `http://${req.headers.host}`);
+      const searchParams = requestURL.searchParams;
+      const city = searchParams.get("city");
+      const delay = searchParams.get("delay") || 0;
+
+      const weatherData = await getWeatherData(city).catch((err) => {
         res.writeHead(200, { "Access-Control-Allow-Origin": "*" });
-        res.write(JSON.stringify(msg));
+        res.write(`Error getting weather data: ${err.message}`);
         res.end();
-      }, 3000);
+      });
+
+      setTimeout(() => {
+        res.writeHead(200, { "Access-Control-Allow-Origin": "*" });
+        res.write(JSON.stringify(weatherData.currentConditions));
+        res.end();
+      }, delay);
     } else {
       const msg = {
         msg: "Hello World",
