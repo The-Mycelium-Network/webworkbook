@@ -32,7 +32,12 @@ http
 
       setTimeout(() => {
         res.writeHead(200, { "Access-Control-Allow-Origin": "*" });
-        res.write(JSON.stringify(weatherData.currentConditions));
+        res.write(
+          JSON.stringify({
+            region: weatherData.region,
+            currentConditions: weatherData.currentConditions,
+          })
+        );
         res.end();
       }, delay);
     } else {
