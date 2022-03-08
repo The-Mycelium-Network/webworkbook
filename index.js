@@ -8,7 +8,7 @@ async function getWeatherData(city) {
 }
 
 http
-  .createServer(async function (req, res) {
+  .createServer(function (req, res) {
     if (req.url === "/slow-response") {
       setTimeout(() => {
         const msg = {
