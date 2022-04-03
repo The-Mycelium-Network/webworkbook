@@ -31,7 +31,7 @@
   "homepage": "https://github.com/schalkneethling/web-accessibility#readme",
   "devDependencies": {
     "eslint": "^8.5.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
     "fs-extra": "10.0.1",
     "pa11y": "6.1.1",
