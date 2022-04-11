@@ -72,3 +72,4 @@ Web accessibility resources, bugs, and communities from around the web
 * [Designing for Global Accessibility, Part I](https://design.google/library/designing-global-accessibility-part-1/)
 * [Designing for Global Accessibility, Part II](https://design.google/library/designing-global-accessibility-part-2/)
 * [Designing for Global Accessibility, Part III](https://design.google/library/designing-global-accessibility-part-iii/)
+* [Browser keyboard navigation in macOS](https://www.a11yproject.com/posts/macos-browser-keyboard-navigation/)
