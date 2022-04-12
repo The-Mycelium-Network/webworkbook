@@ -38,6 +38,7 @@ Web accessibility resources, bugs, and communities from around the web
  - [Essential Components of Web Accessibility (how WCAG and ATAG are inter-related)](https://www.w3.org/WAI/intro/components.php)
  - [The principles of universal design](https://projects.ncsu.edu/ncsu/design/cud/pubs_p/docs/poster.pdf)
  - [Browser keyboard navigation in macOS](https://www.a11yproject.com/posts/macos-browser-keyboard-navigation/)
+ - [Guidance on Web Accessibility and the ADA](https://beta.ada.gov/web-guidance/)
  
  ## Contribute
  
