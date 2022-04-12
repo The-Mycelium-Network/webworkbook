@@ -44,6 +44,7 @@ Web accessibility resources, bugs, and communities from around the web
  
  * [Fix an issue](https://codetribute.mozilla.org/projects/a11y) [Mozilla]
  * [Bugs marked with the access keyword on Bugzilla](https://bugzilla.mozilla.org/buglist.cgi?list_id=14717192&o1=substring&v1=access&f1=keywords&resolution=---&classification=Client%20Software&classification=Developer%20Infrastructure&classification=Components&classification=Server%20Software&classification=Other&query_format=advanced)
+ * [Mozilla Accessibility Release Guidelines](https://wiki.mozilla.org/Accessibility/Guidelines)
 
 ## Browser Add-Ons
 
