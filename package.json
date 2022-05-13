@@ -34,7 +34,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "fs-extra": "10.0.1",
-    "pa11y": "6.2.0",
+    "pa11y": "6.2.3",
     "pa11y-reporter-html": "2.0.0",
     "prettier": "^2.6.2",
     "puppeteer": "13.5.2",
