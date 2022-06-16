@@ -36,7 +36,7 @@
     "fs-extra": "10.1.0",
     "pa11y": "6.2.3",
     "pa11y-reporter-html": "2.0.0",
-    "prettier": "^2.7.0",
+    "prettier": "^2.7.1",
     "puppeteer": "14.4.0",
     "sass": "^1.52.3",
     "stylelint": "^14.9.1",
