@@ -26,6 +26,7 @@ A base implementation for a skip navigation menu for screen reader users impleme
 - [Voluntary Product Accessibility Template](https://en.wikipedia.org/wiki/Voluntary_Product_Accessibility_Template)
   ~ A Voluntary Product Accessibility Template® (VPAT®) is a table containing information regarding how an information and communications technology (ICT) product or service conforms with Section 508
 - [Symbol text descriptions in JAWS](https://stevefaulkner.github.io/symbols/SymbolsJAWS.html)
+- [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/foundations/accessibility)
 
 ## Standards
 
@@ -58,6 +59,8 @@ A base implementation for a skip navigation menu for screen reader users impleme
 - [The principles of universal design](https://projects.ncsu.edu/ncsu/design/cud/pubs_p/docs/poster.pdf)
 - [Browser keyboard navigation in macOS](https://www.a11yproject.com/posts/macos-browser-keyboard-navigation/)
 - [Guidance on Web Accessibility and the ADA](https://beta.ada.gov/web-guidance/)
+- [University of Washington - Accessibility policy resources](https://www.washington.edu/accessibility/policy-resources/)
+- [Yale University accessibility guidelines](https://usability.yale.edu/web-accessibility/accessibility-yale/accessibility-new-projects)
 
 ## Contribute
 
@@ -68,6 +71,7 @@ A base implementation for a skip navigation menu for screen reader users impleme
 ## Browser Add-Ons
 
 - NoCoffee : [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nocoffee/) | [Chrome](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-GB) ~ NoCoffee vision simulator. Originally written by Aaron Leventhal.
+- [Site Unseen](https://chrome.google.com/webstore/detail/site-unseen/aflfgnngnnhdoffmmpmakkdflfedldlh?hl=en)
 
 ## Tools
 
@@ -77,6 +81,7 @@ A base implementation for a skip navigation menu for screen reader users impleme
 - [aXe for Chrome](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
 - [Photosensitive Epilepsy Analysis Tool](https://trace.umd.edu/peat/)
 - [Accessibility Scanner for Android apps](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor)
+- [Accessibility Not-Checklist](https://not-checklist.intopia.digital/)
 
 ## Testing
 
