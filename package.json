@@ -37,7 +37,7 @@
     "pa11y": "6.2.3",
     "pa11y-reporter-html": "2.0.0",
     "prettier": "^2.7.1",
-    "puppeteer": "15.4.1",
+    "puppeteer": "15.5.0",
     "sass": "^1.53.0",
     "stylelint": "^14.9.1",
     "stylelint-a11y": "^1.2.3",
