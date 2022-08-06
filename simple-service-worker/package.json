@@ -1,0 +1,17 @@
+{
+  "name": "simple-service-worker",
+  "description": "A simple example of a caching service worker that also shows your online and offline status",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "calavera": {
+    "eslint": true,
+    "prettier": true
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.7.1"
+  }
+}
