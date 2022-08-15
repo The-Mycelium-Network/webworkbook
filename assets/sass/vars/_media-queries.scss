@@ -1,0 +1,14 @@
+$browser-default-font-size: 16px;
+
+$mobile-ends: (767px / $browser-default-font-size) * 1em;
+$tablet-ends: (1023px / $browser-default-font-size) * 1em;
+$tablet-starts: $mobile-ends + 0.001em;
+$small-desktop-starts: $tablet-ends + 0.001em;
+$small-desktop-ends: (1199px / $browser-default-font-size) * 1em;
+
+$mq-large-desktop-and-up: "all and (min-width: #{$small-desktop-ends})";
+$mq-small-desktop-and-up: "all and (min-width: #{$small-desktop-starts})";
+$mq-tablet-and-up: "all and (min-width: #{$tablet-starts})";
+
+$mq-2x-dpi: "screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx)";
+$mq-2x-dpi-tablet-and-up: "screen and (min-width: #{$tablet-starts}) and (-webkit-min-device-pixel-ratio: 2)";
