@@ -1,0 +1,14 @@
+.girdle,
+ul.girdle {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: $max-mobile-width;
+
+  @media #{$mq-tablet-and-up} {
+    max-width: $max-tablet-width;
+  }
+
+  @media #{$mq-large-desktop-and-up} {
+    max-width: $max-desktop-width;
+  }
+}

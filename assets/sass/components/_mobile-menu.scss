@@ -1,0 +1,13 @@
+.hamburger {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  background: transparent url("/media/iconography/hamburger.svg") 0 0 no-repeat;
+  margin: 0;
+  width: 30px;
+  cursor: pointer;
+}
+
+.close {
+  background: transparent url("/media/iconography/close.svg") 0 0 no-repeat;
+}

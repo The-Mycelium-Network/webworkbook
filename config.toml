@@ -1,0 +1,14 @@
+baseURL = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Project Calavera"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[imaging]
+quality = 75
