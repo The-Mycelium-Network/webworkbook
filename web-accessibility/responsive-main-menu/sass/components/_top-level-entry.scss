@@ -1,0 +1,33 @@
+.top-level-entry-container {
+  position: relative;
+
+  @media #{$mq-tablet-and-up} {
+    display: inline-block;
+    margin-right: 20px;
+
+    @supports (display: flex) {
+      margin-right: inherit;
+    }
+  }
+}
+
+.top-level-entry {
+  display: block;
+  color: $neutral-100;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  text-decoration: none;
+}
+
+button.top-level-entry {
+  &::after {
+    display: inline-block;
+    content: "▼";
+    margin-left: 5px;
+    width: 12px;
+    height: 12px;
+    font-size: $tiny-text;
+  }
+}

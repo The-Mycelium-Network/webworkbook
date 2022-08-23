@@ -1,0 +1,19 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  align-items: center;
+  display: flex;
+  flex-basis: 30%;
+}
+
+.card-img img {
+  max-width: 200px;
+}
+
+.card-content {
+  min-width: 300px;
+}

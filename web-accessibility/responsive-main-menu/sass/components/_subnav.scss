@@ -1,0 +1,20 @@
+.subnav {
+  a {
+    display: block;
+    color: $primary-100;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  @media #{$mq-tablet-and-up} {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    border: solid 1px $neutral-550;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgba(12, 12, 13, 0.1);
+    min-width: 200px;
+    min-width: max-content;
+  }
+}

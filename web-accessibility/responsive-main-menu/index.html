@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Main Menu</title>
+        <link rel="stylesheet" type="text/css" href="css/menu.css" media="screen" />
+</head>
+
+<body>
+        <header class="site-header">
+                <nav id="main-nav-container" class="main-nav" aria-label="Main menu">
+                        <button type="button" id="main-menu-toggle"
+                                class="ghost main-menu-toggle" aria-expanded="false"
+                                aria-controls="main-menu" aria-label="Show Menu">
+                        </button>
+                        <ul id="main-menu" class="main-menu">
+                                <li class="top-level-entry-container">
+                                        <a href="/" class="top-level-entry"
+                                                aria-current="page">Home</a>
+                                </li>
+                                <li class="top-level-entry-container"><button
+                                                id="technologyButton" type="button"
+                                                class="ghost top-level-entry"
+                                                aria-haspopup="menu"
+                                                aria-expanded="false">Technologies</button>
+                                        <ul class="subnav" role="menu"
+                                                aria-labelledby="technologyButton">
+                                                <li data-item="Technologies" role="none">
+                                                        <a role="menuitem"
+                                                                href="/en-US/docs/Web">Technologies
+                                                                Overview</a></li>
+                                                <li data-item="Technologies" role="none">
+                                                        <a role="menuitem"
+                                                                href="/en-US/docs/Web/HTML">HTML</a>
+                                                </li>
+                                                <li data-item="Technologies" role="none">
+                                                        <a role="menuitem"
+                                                                href="/en-US/docs/Web/CSS">CSS</a>
+                                                </li>
+                                                <li data-item="Technologies" role="none">
+                                                        <a role="menuitem"
+                                                                href="/en-US/docs/Web/JavaScript">JavaScript</a>
+                                                </li>
+                                                <li data-item="Technologies" role="none">
+                                                        <a role="menuitem"
+                                                                href="/en-US/docs/Web/Guide/Graphics">Graphics</a>
+                                                </li>
+                                                <li data-item="Technologies" role="none">
+                                                        <a role="menuitem"
+                                                                href="/en-US/docs/Web/HTTP">HTTP</a>
+                                                </li>
+                                                <li data-item="Technologies" role="none">
+                                                        <a role="menuitem"
+                                                                href="/en-US/docs/Web/API">APIs
+                                                                / DOM</a></li>
+                                                <li data-item="Technologies" role="none">
+                                                        <a role="menuitem"
+                                                                href="/en-US/docs/Mozilla/Add-ons/WebExtensions">Browser
+                                                                Extensions</a></li>
+                                                <li data-item="Technologies" role="none">
+                                                        <a role="menuitem"
+                                                                href="/en-US/docs/Web/MathML">MathML</a>
+                                                </li>
+                                        </ul>
+                                </li>
+                                <li class="top-level-entry-container"><button
+                                                id="referencesButton" type="button"
+                                                class="ghost top-level-entry"
+                                                aria-haspopup="menu"
+                                                aria-expanded="false">References
+                                                &amp;
+                                                Guides</button>
+                                        <ul class="subnav" role="menu"
+                                                aria-labelledby="referencesButton">
+                                                <li data-item="References &amp; Guides"
+                                                        role="none"><a role="menuitem"
+                                                                href="/en-US/docs/Learn">Learn
+                                                                web development</a></li>
+                                                <li data-item="References &amp; Guides"
+                                                        role="none"><a role="menuitem"
+                                                                href="/en-US/docs/Web/Tutorials">Tutorials</a>
+                                                </li>
+                                                <li data-item="References &amp; Guides"
+                                                        role="none"><a role="menuitem"
+                                                                href="/en-US/docs/Web/Reference">References</a>
+                                                </li>
+                                                <li data-item="References &amp; Guides"
+                                                        role="none"><a role="menuitem"
+                                                                href="/en-US/docs/Web/Guide">Developer
+                                                                Guides</a></li>
+                                                <li data-item="References &amp; Guides"
+                                                        role="none"><a role="menuitem"
+                                                                href="/en-US/docs/Web/Accessibility">Accessibility</a>
+                                                </li>
+                                                <li data-item="References &amp; Guides"
+                                                        role="none"><a role="menuitem"
+                                                                href="/en-US/docs/Games">Game
+                                                                development</a></li>
+                                                <li data-item="References &amp; Guides"
+                                                        role="none"><a role="menuitem"
+                                                                href="/en-US/docs/Web">...more
+                                                                docs</a></li>
+                                        </ul>
+                                </li>
+                                <li class="top-level-entry-container"><button
+                                                id="feedbackButton" type="button"
+                                                class="ghost top-level-entry"
+                                                aria-haspopup="menu"
+                                                aria-expanded="false">Feedback</button>
+                                        <ul class="subnav" role="menu"
+                                                aria-labelledby="feedbackButton">
+                                                <li data-item="Feedback" role="none">
+                                                        <a role="menuitem"
+                                                                href="/en-US/docs/MDN/Feedback">Send
+                                                                Feedback</a></li>
+                                                <li data-item="Feedback" role="none">
+                                                        <a role="menuitem" target="_blank"
+                                                                rel="noopener noreferrer"
+                                                                href="https://support.mozilla.org/">Get
+                                                                Firefox help 🌐</a></li>
+                                                <li data-item="Feedback" role="none">
+                                                        <a role="menuitem" target="_blank"
+                                                                rel="noopener noreferrer"
+                                                                href="https://stackoverflow.com/">Get
+                                                                web development help
+                                                                🌐</a></li>
+                                                <li data-item="Feedback" role="none">
+                                                        <a role="menuitem"
+                                                                href="/en-US/docs/MDN/Community">Join
+                                                                the MDN
+                                                                community</a>
+                                                </li>
+                                                <li data-item="Feedback" role="none">
+                                                        <a role="menuitem" target="_blank"
+                                                                rel="noopener noreferrer"
+                                                                href="https://github.com/mdn/sprints/issues/new?template=issue-template.md&amp;projects=mdn/sprints/2&amp;labels=user-report&amp;title=%2Fen-US">Report
+                                                                a content problem 🌐</a>
+                                                </li>
+                                                <li data-item="Feedback" role="none">
+                                                        <a role="menuitem" target="_blank"
+                                                                rel="noopener noreferrer"
+                                                                href="https://github.com/mdn/kuma/issues/new/choose">Report
+                                                                an
+                                                                issue 🌐</a></li>
+                                        </ul>
+                                </li>
+                        </ul>
+                </nav>
+        </header>
+        <script src="js/menu.js" defer></script>
+</body>
+
+</html>
