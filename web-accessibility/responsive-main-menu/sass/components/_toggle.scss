@@ -1,0 +1,22 @@
+.main-menu-toggle {
+  padding: 10px;
+  padding-left: 0;
+
+  &::before {
+    display: block;
+    content: "";
+    background: transparent url("../media/iconography/menu-open.svg") 0 0
+      no-repeat;
+    background-size: 18px 12px;
+    width: 18px;
+    height: 12px;
+  }
+
+  &.expanded::before {
+    background-image: url("../media/iconography/menu-close.svg");
+  }
+
+  @media #{$mq-tablet-and-up} {
+    display: none;
+  }
+}

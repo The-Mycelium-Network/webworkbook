@@ -1,0 +1,7 @@
+.site-header {
+  padding: 10px;
+
+  @media #{$mq-tablet-and-up} {
+    padding: 60px 0;
+  }
+}
