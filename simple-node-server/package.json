@@ -1,0 +1,21 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "A two route server using http.createServer",
+  "export": "./index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "http",
+    "server"
+  ],
+  "author": "Schalk Neethling",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.2.1"
+  }
+}
