@@ -1,7 +1,5 @@
 ---
-title: Welcome to Hugo Skeleton
-keywords: hugo, static site, project calavera
-description: A collection of common files used in bespoke Hugo based websites.
+title: Welcome to web://workbook
+keywords: learn to code, curriculum, learning pathways
+description: A curated, digital, interactive book outlining a course of study with curated notes and exercises.
 ---
-
-This is your homepage.
