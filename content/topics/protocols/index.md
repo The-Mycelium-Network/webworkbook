@@ -1,7 +1,7 @@
 ---
 title: What are protocols? - web://workbook
 keywords: internet protocols, types of internet protocols, internet protocols explained
-description: A collection of informational pieces that explains protocols.
+description: A collection of informational pieces that explain internet protocols.
 menu:
   main:
     parent: topics
