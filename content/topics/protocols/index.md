@@ -10,7 +10,7 @@ menu:
 
 ## Protocols are what exactly?
 
-A protocol is a set of rules and guidelines for communicating data. Rules are defined for each step and process during communication between two or more computers. Here we will cover many of these protocols form IP to POP3.
+A protocol is a set of rules and guidelines for communicating data. Rules are defined for each step and process during communication between two or more computers. Here we will cover many of these protocols from Internet Protocol(IP) to Post Office Protocol 3(POP3).
 
 ## SMTP
 
