@@ -10,7 +10,7 @@ menu:
 
 ## What are protocols exactly?
 
-Internet Protocols, or Network Protocols, are a set of rules and guidelines for communicating data between computers connected to the Internet.
+Internet Protocols, or Network Protocols, are rules and guidelines for sending data between computers connected to the Internet.
 
 They work as a “universal language” between computers, being responsible for collecting the data transmitted over the network and breaking it up into small pieces (“packets”), each carrying source and destination information.
 
