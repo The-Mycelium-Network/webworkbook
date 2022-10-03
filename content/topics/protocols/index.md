@@ -8,7 +8,7 @@ menu:
     name: Protocols
 ---
 
-## What are protocols?
+## What are protocols exactly?
 
 Internet Protocols, or Network Protocols, are a set of rules and guidelines for communicating data between computers connected to the Internet.
 
