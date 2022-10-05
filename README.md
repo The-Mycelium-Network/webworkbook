@@ -8,6 +8,8 @@ Read the [project charter](https://github.com/orgs/The-Mycelium-Network/discussi
 
 ## Contributing
 
+Please refer to [our contributing guidelines](./CONTRIBUTING.md) for more information.
+
 ### Hugo
 
 This site uses [Hugo](https://gohugo.io). To develop locally, you’ll need to install Hugo. You can find the installation instructions [here](https://gohugo.io/getting-started/quick-start/).
