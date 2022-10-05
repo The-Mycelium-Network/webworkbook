@@ -44,4 +44,4 @@ Everyone participating in this project is expected to follow [The Mycelium Netwo
 
 ## License
 
-When contributing to the content you agree to license your contributions according to [our license](https://github.com/The-Mycelium-Network/webworkbook/blob/main/LICENSE).
+When contributing to the content you agree to license your contributions according to [our license](/LICENSE).

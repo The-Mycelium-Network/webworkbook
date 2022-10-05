@@ -8,7 +8,7 @@ Read the [project charter](https://github.com/orgs/The-Mycelium-Network/discussi
 
 ## Contributing
 
-Please refer to [our contributing guidelines](./CONTRIBUTING.md) for more information.
+Please refer to [our contributing guidelines](/CONTRIBUTING.md) for more information.
 
 ### Hugo
 
