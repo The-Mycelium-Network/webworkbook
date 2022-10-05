@@ -32,6 +32,16 @@ When written as above it will display as follows:
 
 Even though the use of quotes is not forbidden, using quotes that are more than a single paragraph is also not acceptable. In these instances, it would be better to write a short [synopsis](https://www.wordnik.com/words/synopsis) and link to the full text.
 
+## Guidelines enforcement
+
 If a contributor opens a pull request that goes against these guidelines, the pull request will not be accepted. If this happens a second time, the pull request will be closed, and the contributor will receive an official warning. If this happens a third time, the contributor will be banned from the project.
 
 We ask that you respect everyone's time and follow these guidelines.
+
+## Code of Conduct
+
+Everyone participating in this project is expected to follow [The Mycelium Network's code of conduct](https://github.com/The-Mycelium-Network/the-mycelium-network/blob/main/CODE_OF_CONDUCT.md).
+
+## License
+
+When contributing to the content you agree to license your contributions according to [our license](https://github.com/The-Mycelium-Network/webworkbook/blob/main/LICENSE).
