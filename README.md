@@ -10,6 +10,12 @@ Read the [project charter](https://github.com/orgs/The-Mycelium-Network/discussi
 
 Please refer to [our contributing guidelines](/CONTRIBUTING.md) for more information.
 
+We are open-source enthusiasts! 🌱
+Feel free to get contribute to any aspect of this project.
+While doing so, be reasonable: do not just copy content from elsewhere.
+Like academic writing, your work can incorporate the ideas of others
+but should reflect your original approach to the problem.
+
 ### Hugo
 
 This site uses [Hugo](https://gohugo.io). To develop locally, you’ll need to install Hugo. You can find the installation instructions [here](https://gohugo.io/getting-started/quick-start/).
