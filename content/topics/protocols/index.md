@@ -16,11 +16,11 @@ They work as a “universal language” between computers, being responsible for
 
 The Internet protocol suite is commonly known as the TCP/IP model and contains four abstraction layers, in which all related protocols are classified:
 
-1. Physical: Cables, Network Interface Cards
-2. Data Link: Ethernet, Switches
-3. Network: IP, Routers
-4. Transport: TCP, UDP
-5. Application: HTTP, DNS, FTP, SMTP, DHCP, IMAP, POP3
+1. **Physical**: Cables, Network Interface Cards
+2. **Data Link**: Ethernet, Switches
+3. **Network**: IP, Routers
+4. **Transport**: TCP, UDP
+5. **Application**: HTTP, DNS, FTP, SMTP, DHCP, IMAP, POP3
 
 In the following sections, we will cover many of the most common protocols, from Internet Protocol (IP) to Post Office Protocol 3 (POP3).
 
