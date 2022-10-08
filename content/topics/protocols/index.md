@@ -85,3 +85,11 @@ In other words, it takes the data from the application layer, splits into smalle
 
 > SMTP stands for Simple Mail Transfer Protocol - This is an email protocol used for sending emails from one email account to another via the internet. SMTP server handles the sending, receiving, and relaying of email. You can think of servers as your real-life post offices. When you send a letter from city A to city B, it first reaches a local post office in city A; here, it gets processed and sent to the post office in city B, which is in charge of delivering it to its final destination. The same happens with SMTP servers—though instead of taking days, the process takes a few minutes at most.
 *[Read More Here](https://postmarkapp.com/guides/everything-you-need-to-know-about-smtp)*
+
+### DNS
+
+DNS stands for Domain Name System. The DNS is the phonebook of the internet. We access websites through domain names e.g. espn.com. Instead of memorizing all kinds of IP addresses of each website we make use of the DNS.  The process of DNS resolution involves converting a hostname (such as www.example.com) into a computer-friendly IP address (such as 192.168.1.1). An IP address is given to each device on the Internet, and that address is necessary to find the appropriate Internet device - like a street address is used to find a particular home.
+ 
+**References:**
+ 
+* [Cloudflare](https://www.cloudflare.com/learning/dns/what-is-dns/)
