@@ -43,7 +43,7 @@ In this section, we will cover many of the most common protocols, from Internet 
 
 ### UDP
 
-UDP stands for User Datagram Protocol. It is specifically chosen for time-sensitive applications like gaming, playing videos, or Domain Name System (DNS) lookups. The UDP skips establishing a connection because it takes time, eliminating this step results in faster data transfer speeds, but due to the process, some of the data packets can get lost in transmission. Using UDP can leave you open to a *[DDoS attack](https://www.fortinet.com/resources/cyberglossary/ddos-attack)* if used incorrectly.
+UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensitive applications like online gaming, video playback, and Domain Name System (DNS) lookups. UDP uses a [connectionless communication](https://en.wikipedia.org/wiki/Connectionless_communication) model, which speeds up communication between client and server. Unlike Transmission Control Protocol(TCP), the order of packets (called datagrams) is not guaranteed, nor are there any checks to ensure packets are delivered. Because a formal connection is not made, UDP can leave one open to *[DDoS attacks](https://www.fortinet.com/resources/cyberglossary/ddos-attack)* through UDP [flood attacks](https://www.cloudflare.com/learning/ddos/udp-flood-ddos-attack/).
 
 **References:**
 
