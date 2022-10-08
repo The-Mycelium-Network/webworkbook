@@ -96,5 +96,4 @@ UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensi
 **References:**
 
 * [MDN - UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
-
 * [Cloudflare - UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
