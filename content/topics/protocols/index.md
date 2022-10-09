@@ -1,5 +1,5 @@
 ---
-title: What are protocols? - web://workbook
+title: What are protocols?
 keywords: internet protocols, types of internet protocols, internet protocols explained
 description: A collection of informational pieces that explain internet protocols.
 menu:
@@ -84,4 +84,16 @@ In other words, it takes the data from the application layer, splits into smalle
 ### SMTP
 
 > SMTP stands for Simple Mail Transfer Protocol - This is an email protocol used for sending emails from one email account to another via the internet. SMTP server handles the sending, receiving, and relaying of email. You can think of servers as your real-life post offices. When you send a letter from city A to city B, it first reaches a local post office in city A; here, it gets processed and sent to the post office in city B, which is in charge of delivering it to its final destination. The same happens with SMTP servers—though instead of taking days, the process takes a few minutes at most.
-*[Read More Here](https://postmarkapp.com/guides/everything-you-need-to-know-about-smtp)*
+
+**See also:**
+
+* [Postmark: Everything you need to know about SMTP](https://postmarkapp.com/guides/everything-you-need-to-know-about-smtp)
+
+### UDP
+
+UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensitive applications like online gaming, video playback, and Domain Name System (DNS) lookups. UDP uses a [connectionless communication](https://en.wikipedia.org/wiki/Connectionless_communication) model, which speeds up communication between client and server. Unlike Transmission Control Protocol(TCP), the order of packets (called datagrams) is not guaranteed, nor are there any checks to ensure packets are delivered. Because a formal connection is not made, UDP can leave one open to *[DDoS attacks](https://www.fortinet.com/resources/cyberglossary/ddos-attack)* through UDP [flood attacks](https://www.cloudflare.com/learning/ddos/udp-flood-ddos-attack/).
+
+**References:**
+
+* [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
+* [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
