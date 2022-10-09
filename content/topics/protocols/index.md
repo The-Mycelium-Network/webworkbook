@@ -97,3 +97,13 @@ UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensi
 
 * [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
 * [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
+
+### POP3
+
+POP3 stands for: the post office protocol - it is used to retrieve mail from a remote server over a network and saving it on a local device. Once an e-mail has been retrieved, it is usually deleted from the server, freeing up space. Many providers however, give an option to keep the original copies intact. All data and attachments are saved on your local device making it possible to access the messages while offline. Most mail servers use POP3, because of it's simplicity and also due to it being well-supported.
+
+**References:**
+
+* [Techtarget](https://www.techtarget.com/whatis/definition/POP3-Post-Office-Protocol-3)
+
+* [Hostinger](https://www.hostinger.com/tutorials/email/pop3-imap-smtp-protocols-explained-ports)
