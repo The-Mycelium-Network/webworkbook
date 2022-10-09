@@ -107,4 +107,3 @@ POP3 stands for: the post office protocol - it is used to retrieve mail from a r
 * [Techtarget](https://www.techtarget.com/whatis/definition/POP3-Post-Office-Protocol-3)
 * [Hostinger](https://www.hostinger.com/tutorials/email/pop3-imap-smtp-protocols-explained-ports)
 
-Dummy change sugest a delete
