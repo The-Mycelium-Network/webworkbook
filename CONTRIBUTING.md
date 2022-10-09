@@ -16,7 +16,7 @@ With that said, curation does not mean copying. While you can, and should, use q
 
 1. Never copy large portions of text verbatim i.e. using exactly the same words; corresponding word for word.
 2. Always reference, and link to your sources.
-3. Almost put quoted text as quotes in the document.
+3. Always put the quoted text as a block quote. [Block quotes in Markdown](https://commonmark.org/help/tutorial/05-blockquotes.html)
 
 In Markdown, which is the language we use to write our content, you write a quote as follows:
 
