@@ -1,5 +1,5 @@
 ---
-title: What are protocols? - web://workbook
+title: What are protocols?
 keywords: internet protocols, types of internet protocols, internet protocols explained
 description: A collection of informational pieces that explain internet protocols.
 menu:
@@ -95,5 +95,5 @@ UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensi
 
 **References:**
 
-* [MDN - UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
-* [Cloudflare - UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
+* [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
+* [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
