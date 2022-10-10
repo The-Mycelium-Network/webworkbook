@@ -1,3 +1,13 @@
+---
+title: What is GitHub?
+keywords: github, github explained, open source collaboration
+description: An introduction to GitHub and the available alternatives for social coding and contributing to open-source.
+menu:
+  main:
+    parent: topics
+    name: What is GitHub?
+---
+
 Github is a hub for programmers, designers, technical writers, open-source enthusiasts, and the AI companions that can help them along the way.
 
 Github creates spaces for people to come together and solve problems - like setting up the code for a more renewable system on farms, so farmers can better track soil moisture and save water for both themselves and for the health of our planet.
