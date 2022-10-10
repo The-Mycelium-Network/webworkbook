@@ -1,5 +1,5 @@
 ---
-title: What is Git? - web://workbook
+title: What is Git?
 keywords: git, github, git explained
 description: A collection of informational pieces that explains what Git is.
 menu:
