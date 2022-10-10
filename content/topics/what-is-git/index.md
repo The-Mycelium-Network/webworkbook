@@ -12,11 +12,10 @@ menu:
 
 Git is a distributed version control system (DVCS) that allows you to create a local copy of a remote repository. Creating a local copy enables you to create changes without interfering with original project files. Git is great for collaborations, offline work, or even branching off with new or risky ideas. A terminal is required to use Git however, there are web hosted versions, such as GitHub and GitLab.
 
-[Git vs GitHub: What's the difference?](https://www.youtube.com/watch?v=wpISo9TNjfU&ab_channel=IBMTechnology)  
-* This video briefly discusses the difference between Git and GitHub/GitLab.  
+**See also:**
 
-[Getting Started - What is Git?](https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)  
-* git-scm.com gives an overall explanation about how Git works.
+* [Git vs GitHub: What's the difference?](https://www.youtube.com/watch?v=wpISo9TNjfU&ab_channel=IBMTechnology): This video briefly discusses the difference between Git and GitHub/GitLab.
+* [Getting Started - What is Git?](https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F): Git official documentation gives an overall explanation of how it works.
 
 ### History of Git
 
