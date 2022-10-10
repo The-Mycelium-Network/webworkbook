@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Project Calavera"
+title = "web://workbook"
 
 [menu]
   [[menu.main]]
