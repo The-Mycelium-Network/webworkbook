@@ -1,5 +1,5 @@
 ---
-title: What is the internet? - web://workbook
+title: What is the internet?
 keywords: what is the internet, internet explained, internet 101
 description: A collection of informational pieces that explains what the internet is.
 menu:
