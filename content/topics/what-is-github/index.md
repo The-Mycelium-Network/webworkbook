@@ -18,7 +18,7 @@ While GitHub has the majority of the market share regarding hosted version contr
 
 Gitlab is probably one of the more well-known alternatives to GitHub and is trusted by many large and small [open-source repositories](https://about.gitlab.com/solutions/open-source/projects/). Gitlab is backed by [Git](https://git-scm.com/), the same version control system used by GitHub.
 
-Gitlab heavily focuses on development operations or DevOps, especially continuous integration(CI) and [deployment](https://www.ibm.com/cloud/learn/continuous-deployment)(CD) pipelines. Another difference is that GitHub offers a [marketplace](https://github.com/marketplace?type=) where users can curate their own tools instead of Gitlab’s mostly predefined platform. Gitlab does offer roughly 30 integration, such as Microsoft Teams, Slack, Jira, and Gmail. Kinsta offers a [very detailed comparison](https://kinsta.com/blog/gitlab-vs-github/#gitlab-vs-github-key-differences) between Gitlab and Github if you want to learn more.
+Gitlab heavily focuses on development operations or DevOps, especially continuous integration (CI) and [deployment](https://www.ibm.com/cloud/learn/continuous-deployment) (CD) pipelines. Another difference is that GitHub offers a [marketplace](https://github.com/marketplace?type=) where users can curate their own tools instead of Gitlab’s mostly predefined platform. Gitlab does offer roughly 30 integration, such as Microsoft Teams, Slack, Jira, and Gmail. Kinsta offers a [very detailed comparison](https://kinsta.com/blog/gitlab-vs-github/#gitlab-vs-github-key-differences) between Gitlab and Github if you want to learn more.
 
 ### [BitBucket](https://bitbucket.org/)
 
