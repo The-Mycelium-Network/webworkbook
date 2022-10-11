@@ -40,7 +40,7 @@ SourceForge states that it is a more user friendly experience for end-users look
 
 {{< youtube id="ueqSAoKt04Q" title="Gogs - self-hosted Git" >}}
 
-Gogs is an open-source [self-hosted](https://github.com/gogs/gogs) Git service. This essentially means that you need to install, run and maintain the service on your own. If you want the ultimate control, you might opt for a self-hosted service such as Gogs. Gogs in written in [Go](https://go.dev/) and can run anywhere where the Go compiler can run, which is pretty much everywhere. It is very lightweight and, as a result, can be run on a [Raspberry Pi](https://www.raspberrypi.org/) or even [network-attached storage](https://www.qnap.com/solution/what-is-nas/en-us/)(NAS).
+Gogs is an open-source [self-hosted](https://github.com/gogs/gogs) Git service. This essentially means that you need to install, run and maintain the service on your own. If you want the ultimate control, you might opt for a self-hosted service such as Gogs. Gogs in written in [Go](https://go.dev/) and can run anywhere where the Go compiler can run, which is pretty much everywhere. It is very lightweight and, as a result, can be run on a [Raspberry Pi](https://www.raspberrypi.org/) or even [network-attached storage](https://www.qnap.com/solution/what-is-nas/en-us/) (NAS).
 
 ### [Gitea](https://gitea.io/)
 
