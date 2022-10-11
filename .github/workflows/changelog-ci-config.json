@@ -1,0 +1,31 @@
+{
+  "comment_changelog": true,
+  "include_unlabeled_changes": true,
+  "unlabeled_group_title": "Unlabeled Changes",
+  "group_config": [
+    {
+      "title": "New content or content updates",
+      "labels": ["technical writing"]
+    },
+    {
+      "title": "Bug Fixes",
+      "labels": ["bug"]
+    },
+    {
+      "title": "Project Improvements",
+      "labels": ["enhancement"]
+    },
+    {
+      "title": "New Features",
+      "labels": ["feature"]
+    },
+    {
+      "title": "Documentation Updates",
+      "labels": ["documentation"]
+    },
+    {
+      "title": "Miscellaneous Updates",
+      "labels": ["chore", "infra"]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 ---
-title: Topics - web://workbook
+title: Topics
 keywords: webworkbook topics page
 description: A collection of learning topics for front end web developers.
 menu:
