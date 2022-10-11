@@ -108,3 +108,12 @@ UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensi
 
 * [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
 * [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
+
+### FTP (File Transfer Protocol)
+
+This protocol is a group of rules that determine how computers transfer files from one system to another using the internet. FTP works by opening a connection between 2 parties. There are different communication channels between the parties for example: An connection is designated as a data channel, where the sharing happens once the server has granted you access. The FTP does lack security, it does not encrypt the sent data. There for FTPS of SFTP is used to safely transfer data.
+
+**References:**
+
+* [FTP-MDN](https://developer.mozilla.org/en-US/docs/Glossary/FTP)
+* [FTP-Hostinger] (https://www.hostinger.com/tutorials/what-is-ftp)
