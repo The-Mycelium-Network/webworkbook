@@ -8,6 +8,8 @@ menu:
     name: What is GitHub?
 ---
 
+{{< youtube w3jLJU7DT5E >}}
+
 Github is a hub for programmers, designers, technical writers, open-source enthusiasts, and the AI companions that can help them along the way.
 
 Github creates spaces for people to come together and solve problems - like setting up the code for a more renewable system on farms, so farmers can better track soil moisture and save water for both themselves and for the health of our planet.
