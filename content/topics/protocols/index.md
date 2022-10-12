@@ -115,7 +115,8 @@ This protocol is used to securely transfer data between users, companies or clie
 
 **References:**
 
-* [FTPS-Precisely](https://www.precisely.com/glossary/ftps)
+- [Precisely glossary: FTPS](https://www.precisely.com/glossary/ftps)
+- [Wikipedia: FTPS](https://en.wikipedia.org/wiki/FTPS)
 
 ### IMAP (Internet Message Access Protocol)
 
