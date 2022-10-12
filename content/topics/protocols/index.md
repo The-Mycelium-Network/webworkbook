@@ -115,6 +115,6 @@ This is one of a few methods used to retrieve e-mails. This method makes it poss
 
 **References:**
 
-* [WhatIsMyIPAddress](https://whatismyipaddress.com/imap)
-* [javaTpoint](https://www.javatpoint.com/imap-protocol)
-* [geeksforgeeks](https://www.geeksforgeeks.org/internet-message-access-protocol-imap/)
+* [WhatIsMyIPAddress: What is a IMAP?](https://whatismyipaddress.com/imap)
+* [JavaTpoint: IMAP Protocol](https://www.javatpoint.com/imap-protocol)
+* [GeeksforGeeks: Internet Message Access Protocol (IMAP)](https://www.geeksforgeeks.org/internet-message-access-protocol-imap/)
