@@ -81,13 +81,24 @@ In other words, it takes the data from the application layer, splits into smalle
 - Wikipedia related entries
   - [TCP](https://pt.wikipedia.org/wiki/Protocolo_de_controle_de_transmiss%C3%A3o)
 
-### SMTP
+### SMTP (Simple Mail Transfer Protocol)
 
-> SMTP stands for Simple Mail Transfer Protocol - This is an email protocol used for sending emails from one email account to another via the internet. SMTP server handles the sending, receiving, and relaying of email. You can think of servers as your real-life post offices. When you send a letter from city A to city B, it first reaches a local post office in city A; here, it gets processed and sent to the post office in city B, which is in charge of delivering it to its final destination. The same happens with SMTP servers—though instead of taking days, the process takes a few minutes at most.
+Simple Mail Transfer Protocol is a protocol used for electronic mail transmission over the internet, specifically for sending messages based on e-mail addresses. You will mostly find SMTP being used in combination with POP3 and IMAP. They are the most common email protocols in use but, while SMTP is a push protocol — i. e., deliver emails, through the internet, to a server that can be outside of your network —, the other two are used for retrieving the messages from the server on the receiver's side.
+
+SMTP servers handle the sending, receiving, and relaying of emails that will later be downloaded via a receiving protocol. A good metaphor for SMTP servers is real-life post offices. When you send a letter, your local post office processes your correspondence and decides which post office to forward the letter to. After reaching the recipient's post office, the letter will be ready to be retrieved by your local mailman and delivered to your address.
+
+**References:**
+
+* [MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/SMTP)
+* [Wikipedia](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
+* [GeeksforGeeks](https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/)
 
 **See also:**
 
 * [Postmark: Everything you need to know about SMTP](https://postmarkapp.com/guides/everything-you-need-to-know-about-smtp)
+* Videos:
+  * [Eye on Tech: What is SMTP (Simple Mail Transfer Protocol)?](https://www.youtube.com/watch?v=AoqvWgazf50)
+  * [TECHNOPHILE: What Is SMTP ? How it Works !](https://www.youtube.com/watch?v=O-Xho7gEWj0)
 
 ### UDP
 
