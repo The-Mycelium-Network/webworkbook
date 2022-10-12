@@ -108,3 +108,13 @@ UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensi
 
 * [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
 * [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
+
+### IMAP (Internet Message Access Protocol)
+
+This is one of a few methods used to retrieve e-mails. This method makes it possible for the user to access messages from any device and e-mails will also be synchronized across all devices that are being used. IMAP stores e-mails on an external server allowing remote access. The same goes for outgoing messages. Messages are only downloaded once you click on them and attachments are not automatically downloaded either, making IMAP fast, efficient and versatile.
+
+**References:**
+
+* [WhatIsMyIPAddress: What is a IMAP?](https://whatismyipaddress.com/imap)
+* [JavaTpoint: IMAP Protocol](https://www.javatpoint.com/imap-protocol)
+* [GeeksforGeeks: Internet Message Access Protocol (IMAP)](https://www.geeksforgeeks.org/internet-message-access-protocol-imap/)
