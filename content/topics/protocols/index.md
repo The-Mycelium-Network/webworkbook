@@ -111,7 +111,7 @@ UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensi
 
 ### FTPS (File Transfer Protocol Secure)
 
-This protocol is used to securely transfer data between users, companies or clients. The sent files make use of client certification and server identities when transferring the data for point A to point B. Before the data is sent it gets *[encrypted](https://www.techtarget.com/searchsecurity/definition/encryption), and various security measures and encryption strategies are used to connect with foreign servers and verify authenticity before send any data.
+This protocol is used to securely transfer data between users, companies or clients. The sent files make use of client certification and server identities when transferring the data from point A to point B. Before the data is sent it gets [encrypted](https://www.techtarget.com/searchsecurity/definition/encryption), and various security measures and encryption strategies are used to connect with foreign servers and verify authenticity before sending any data.
 
 **References:**
 
