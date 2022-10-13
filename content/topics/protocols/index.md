@@ -120,6 +120,14 @@ In a nutshell, the data gets encrypted before it's sent, preventing it from bein
 - [Precisely glossary: FTPS](https://www.precisely.com/glossary/ftps)
 - [Wikipedia: FTPS](https://en.wikipedia.org/wiki/FTPS)
 
+### SFTP **SSH File Transfer Protocol**
+
+SFTP functions pretty much the same as FTPS protocol, the difference is that SFTP makes use of the SSH protocol for security and authentication. SFTP is quickly taking the place of FTP and FTPS. The reason for this is that SFTP is more secure, more reliable and easier to configure. This means that there are not many reasons to use any other protocol in its place. SFTP is protected against *[man-in-the-middle-attacks](https://www.ssh.com/academy/attack/man-in-the-middle) and even *[password sniffing](https://www.ssh.com/academy/attack/password-sniffing).
+
+**References:**
+
+* [SFTP-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
+
 ### IMAP (Internet Message Access Protocol)
 
 This is one of a few methods used to retrieve e-mails. This method makes it possible for the user to access messages from any device and e-mails will also be synchronized across all devices that are being used. IMAP stores e-mails on an external server allowing remote access. The same goes for outgoing messages. Messages are only downloaded once you click on them and attachments are not automatically downloaded either, making IMAP fast, efficient and versatile.
