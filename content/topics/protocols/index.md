@@ -109,6 +109,17 @@ UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensi
 * [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
 * [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
 
+### FTPS (File Transfer Protocol Secure)
+
+FTP Secure is used to securely transfer data between users, companies or clients. It's an extension of the File Transfer Protocol (FTP) which adds support for a security layer. FTPS uses cryptographic protocols like SSL (Secure Sockets Layer) or TLS (Transport Layer Security), although the former is now deprecated due to security vulnerabilities.
+
+In a nutshell, the data gets encrypted before it's sent, preventing it from being intercepted and read by third parties. FTP make use of client certification and server identities when transferring the data from point A to point B, and various security measures and encryption strategies are used to connect with foreign servers and verify authenticity before sending any data.
+
+**References:**
+
+- [Precisely glossary: FTPS](https://www.precisely.com/glossary/ftps)
+- [Wikipedia: FTPS](https://en.wikipedia.org/wiki/FTPS)
+
 ### IMAP (Internet Message Access Protocol)
 
 This is one of a few methods used to retrieve e-mails. This method makes it possible for the user to access messages from any device and e-mails will also be synchronized across all devices that are being used. IMAP stores e-mails on an external server allowing remote access. The same goes for outgoing messages. Messages are only downloaded once you click on them and attachments are not automatically downloaded either, making IMAP fast, efficient and versatile.
