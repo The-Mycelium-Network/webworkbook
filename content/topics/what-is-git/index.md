@@ -37,7 +37,8 @@ Torvalds decided to figure out another solution. In 2005, Git was born! Since it
 
 Need help? Git can be quite the learning curve. Below are some resources to help get you started.
 
-* [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE&ab_channel=ProgrammingwithMosh): This hour-long video walks brand new beginners through the basics of git, starting with the setup.
+* [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE&ab_channel=ProgrammingwithMosh): This video walks beginners through the basics of Git, starting with the setup.
+
 * [Git Cheatsheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf): This is a short pdf file from GitLab with some basic Git commands and a brief explanation of each.
 * [50 Git Commands](https://www.freecodecamp.org/news/git-cheat-sheet/): 50 Git commands with brief explanations
 * [Dangit, Git!?!](https://dangitgit.com/en): Git got ya down? Mess up? We’ve all been there. This guide helps you get back into the flow (and keeps you from panicking) by helping you fix some common Git mistakes.
