@@ -120,8 +120,13 @@ The FTP is insecure by current standards and it's considered a legacy protocol, 
 
 **References:**
 
-* [FTP-MDN](https://developer.mozilla.org/en-US/docs/Glossary/FTP)
-* [FTP-Hostinger] (https://www.hostinger.com/tutorials/what-is-ftp)
+- [MDN Web Docs Glossary: FTP](https://developer.mozilla.org/en-US/docs/Glossary/FTP)
+
+**See also:**
+
+- [Hostinger Tutorials: What is FTP - FTP Explained for Beginners](https://www.hostinger.com/tutorials/what-is-ftp)
+- Videos:
+  - [CertBros: FTP Explained | File Transfer Protocol | Cisco CCNA 200-301](https://www.youtube.com/watch?v=L9aZpg0ip70)
 
 ### IMAP (Internet Message Access Protocol)
 
