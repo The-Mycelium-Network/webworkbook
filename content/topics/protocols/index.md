@@ -111,7 +111,12 @@ UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensi
 
 ### FTP (File Transfer Protocol)
 
-This protocol is a group of rules that determine how computers transfer files from one system to another using the internet. FTP works by opening a connection between 2 parties. There are different communication channels between the parties for example: An connection is designated as a data channel, where the sharing happens once the server has granted you access. The FTP does lack security, it does not encrypt the sent data. There for FTPS of SFTP is used to safely transfer data.
+File Transfer Protocol is used to allow computers to transfer files from one system to another using the internet. FTP works by opening a connection between 2 parties, which is made via two distinct communication channels: the control channel handles FTP commands and responses; while the data channel is where the sharing happens once the server has granted you access.
+
+The FTP is insecure by current standards and it's considered a legacy protocol, the main issue being the fact that it does not encrypt the data sent, allowing data interception. There are protocols more appropriate to safely transfer data, such as:
+
+- FTPS (FTP Secure), which adds a security layer on top of FTP using cryptographic protocols like SSL or TLS;
+- SFTP (SSH File Transfer Protocol), which runs over the SSH Protocol and provides encrypted data communication.
 
 **References:**
 
