@@ -129,3 +129,15 @@ This is one of a few methods used to retrieve e-mails. This method makes it poss
 * [WhatIsMyIPAddress: What is a IMAP?](https://whatismyipaddress.com/imap)
 * [JavaTpoint: IMAP Protocol](https://www.javatpoint.com/imap-protocol)
 * [GeeksforGeeks: Internet Message Access Protocol (IMAP)](https://www.geeksforgeeks.org/internet-message-access-protocol-imap/)
+
+### SSH **Secure Shell**
+
+SSH provides a secure method to remotely login from one  computer to another. There are strong alternative options that are used for authentication, along with a strong encryption it protects the integrity of the communications. SSH is used in conjunction with the SFTP protocol, due to the high level of security it provides. This protocol is used in an corporate network in the following ways:
+* It gives automated processes and network users secure access
+* File transfer in and around the companies network
+* Remote commands can be securely issued if something needs to be done remotely
+*  Managing network infrastructure and other mission-critical system components.
+
+**References:**
+
+* [SSH-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
