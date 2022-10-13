@@ -111,7 +111,7 @@ UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensi
 
 ### POP3
 
-POP3 stands for: the post office protocol - it is used to retrieve mail from a remote server over a network and saving it on a local device. Once an e-mail has been retrieved, it is usually deleted from the server, freeing up space. Many providers however, give an option to keep the original copies intact. All data and attachments are saved on your local device making it possible to access the messages while offline. Most mail servers use POP3, because of it's simplicity and also due to it being well-supported.
+POP3 stands for Post Office Protocol 3 - it is used to retrieve mail from a remote server over a network and save it on a local device. Once an e-mail has been retrieved, it is usually deleted from the server, freeing up space. Many providers, however, give an option to keep the original copies intact. All data and attachments are saved on your local device, making it possible to access the messages while offline. Most mail servers use POP3 because of its simplicity and also due to it being well-supported.
 
 **References:**
 
