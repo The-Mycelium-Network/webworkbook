@@ -1,6 +1,7 @@
 ---
 title: What is Git?
-keywords: git, github, git explained
+keywords: git, git 101, git explained
+
 description: A collection of informational pieces that explains what Git is.
 menu:
   main:
