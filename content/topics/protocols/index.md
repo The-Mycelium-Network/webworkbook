@@ -81,13 +81,24 @@ In other words, it takes the data from the application layer, splits into smalle
 - Wikipedia related entries
   - [TCP](https://pt.wikipedia.org/wiki/Protocolo_de_controle_de_transmiss%C3%A3o)
 
-### SMTP
+### SMTP (Simple Mail Transfer Protocol)
 
-> SMTP stands for Simple Mail Transfer Protocol - This is an email protocol used for sending emails from one email account to another via the internet. SMTP server handles the sending, receiving, and relaying of email. You can think of servers as your real-life post offices. When you send a letter from city A to city B, it first reaches a local post office in city A; here, it gets processed and sent to the post office in city B, which is in charge of delivering it to its final destination. The same happens with SMTP servers—though instead of taking days, the process takes a few minutes at most.
+Simple Mail Transfer Protocol is a protocol used for electronic mail transmission over the internet, specifically for sending messages based on e-mail addresses. You will mostly find SMTP being used in combination with POP3 and IMAP. They are the most common email protocols in use but, while SMTP is a push protocol — i. e., deliver emails, through the internet, to a server that can be outside of your network —, the other two are used for retrieving the messages from the server on the receiver's side.
+
+SMTP servers handle the sending, receiving, and relaying of emails that will later be downloaded via a receiving protocol. A good metaphor for SMTP servers is real-life post offices. When you send a letter, your local post office processes your correspondence and decides which post office to forward the letter to. After reaching the recipient's post office, the letter will be ready to be retrieved by your local mailman and delivered to your address.
+
+**References:**
+
+* [MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/SMTP)
+* [Wikipedia](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
+* [GeeksforGeeks](https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/)
 
 **See also:**
 
 * [Postmark: Everything you need to know about SMTP](https://postmarkapp.com/guides/everything-you-need-to-know-about-smtp)
+* Videos:
+  * [Eye on Tech: What is SMTP (Simple Mail Transfer Protocol)?](https://www.youtube.com/watch?v=AoqvWgazf50)
+  * [TECHNOPHILE: What Is SMTP ? How it Works !](https://www.youtube.com/watch?v=O-Xho7gEWj0)
 
 ### UDP
 
@@ -97,3 +108,24 @@ UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensi
 
 * [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
 * [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
+
+### FTPS (File Transfer Protocol Secure)
+
+FTP Secure is used to securely transfer data between users, companies or clients. It's an extension of the File Transfer Protocol (FTP) which adds support for a security layer. FTPS uses cryptographic protocols like SSL (Secure Sockets Layer) or TLS (Transport Layer Security), although the former is now deprecated due to security vulnerabilities.
+
+In a nutshell, the data gets encrypted before it's sent, preventing it from being intercepted and read by third parties. FTP make use of client certification and server identities when transferring the data from point A to point B, and various security measures and encryption strategies are used to connect with foreign servers and verify authenticity before sending any data.
+
+**References:**
+
+- [Precisely glossary: FTPS](https://www.precisely.com/glossary/ftps)
+- [Wikipedia: FTPS](https://en.wikipedia.org/wiki/FTPS)
+
+### IMAP (Internet Message Access Protocol)
+
+This is one of a few methods used to retrieve e-mails. This method makes it possible for the user to access messages from any device and e-mails will also be synchronized across all devices that are being used. IMAP stores e-mails on an external server allowing remote access. The same goes for outgoing messages. Messages are only downloaded once you click on them and attachments are not automatically downloaded either, making IMAP fast, efficient and versatile.
+
+**References:**
+
+* [WhatIsMyIPAddress: What is a IMAP?](https://whatismyipaddress.com/imap)
+* [JavaTpoint: IMAP Protocol](https://www.javatpoint.com/imap-protocol)
+* [GeeksforGeeks: Internet Message Access Protocol (IMAP)](https://www.geeksforgeeks.org/internet-message-access-protocol-imap/)
