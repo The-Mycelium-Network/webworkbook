@@ -109,6 +109,16 @@ UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensi
 * [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
 * [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
 
+### POP3
+
+POP3 stands for Post Office Protocol 3 - it is used to retrieve mail from a remote server over a network and save it on a local device. Once an e-mail has been retrieved, it is usually deleted from the server, freeing up space. Many providers, however, give an option to keep the original copies intact. All data and attachments are saved on your local device, making it possible to access the messages while offline. Most mail servers use POP3 because of its simplicity and also due to it being well-supported.
+
+**References:**
+
+* [Techtarget](https://www.techtarget.com/whatis/definition/POP3-Post-Office-Protocol-3)
+* [Hostinger](https://www.hostinger.com/tutorials/email/pop3-imap-smtp-protocols-explained-ports)
+
+=======
 ### FTPS (File Transfer Protocol Secure)
 
 FTP Secure is used to securely transfer data between users, companies or clients. It's an extension of the File Transfer Protocol (FTP) which adds support for a security layer. FTPS uses cryptographic protocols like SSL (Secure Sockets Layer) or TLS (Transport Layer Security), although the former is now deprecated due to security vulnerabilities.
