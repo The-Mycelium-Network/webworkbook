@@ -132,7 +132,9 @@ In a nutshell, the data gets encrypted before it's sent, preventing it from bein
 
 ### SFTP (SSH File Transfer Protocol)
 
-SFTP functions pretty much the same as FTPS protocol, the difference is that SFTP makes use of the SSH protocol for security and authentication. SFTP is quickly taking the place of FTP and FTPS. The reason for this is that SFTP is more secure, more reliable and easier to configure. This means that there are not many reasons to use any other protocol in its place. SFTP is protected against *[man-in-the-middle-attacks](https://www.ssh.com/academy/attack/man-in-the-middle) and even *[password sniffing](https://www.ssh.com/academy/attack/password-sniffing).
+SFTP functions pretty much the same as FTPS protocol, both being protocols used to transfer files safely through an encrypted connection. The difference is the encryption type and the authentication process used. While FTPS just adds a security layer around the legacy FTP protocol, SFTP is an extension of the SSH protocol, which allows remote machines to verify each other before connecting and transferring data. 
+
+SFTP is quickly taking the place of FTP and FTPS. The reason for this is that SFTP is more secure, more reliable and easier to configure. This means that there are not many reasons to use any other protocol in its place. SFTP is protected against [man-in-the-middle-attacks](https://www.ssh.com/academy/attack/man-in-the-middle) and even [password sniffing](https://www.ssh.com/academy/attack/password-sniffing).
 
 **References:**
 
