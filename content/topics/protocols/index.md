@@ -130,7 +130,7 @@ In a nutshell, the data gets encrypted before it's sent, preventing it from bein
 - [Precisely glossary: FTPS](https://www.precisely.com/glossary/ftps)
 - [Wikipedia: FTPS](https://en.wikipedia.org/wiki/FTPS)
 
-### SFTP **SSH File Transfer Protocol**
+### SFTP (SSH File Transfer Protocol)
 
 SFTP functions pretty much the same as FTPS protocol, the difference is that SFTP makes use of the SSH protocol for security and authentication. SFTP is quickly taking the place of FTP and FTPS. The reason for this is that SFTP is more secure, more reliable and easier to configure. This means that there are not many reasons to use any other protocol in its place. SFTP is protected against *[man-in-the-middle-attacks](https://www.ssh.com/academy/attack/man-in-the-middle) and even *[password sniffing](https://www.ssh.com/academy/attack/password-sniffing).
 
