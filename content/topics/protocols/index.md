@@ -137,6 +137,8 @@ SFTP functions pretty much the same as FTPS protocol, the difference is that SFT
 **References:**
 
 * [SFTP-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
+* [GeeksforGeeks: Difference between FTPS and SFTP](https://www.geeksforgeeks.org/difference-between-ftps-and-sftp/)
+* [SmartFile: The Difference Between SFTP & FTPS and Why It Matters](https://www.smartfile.com/blog/difference-between-sftp-ftps/)
 
 ### IMAP (Internet Message Access Protocol)
 
