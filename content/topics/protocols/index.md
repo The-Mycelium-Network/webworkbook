@@ -173,10 +173,8 @@ SFTP is quickly taking the place of FTP and FTPS. The reason for this is that SF
 ### SSH (Secure Shell)
 
 SSH provides a secure method to remotely login from one computer to another, with several alternative options for authentication, along with a strong encryption to protect the integrity of the communications. SSH is used in conjunction with the SFTP protocol, due to the high level of security it provides. This protocol is used in a corporate network in the following ways:
-* It gives automated processes and network users secure access;
-* File transfer in and around the companies network;
-* Remote commands can be securely issued if something needs to be done remotely;
-* Managing network infrastructure and other mission-critical system components.
+
+In corporate networks, SSH protocol can be used to guarantee secure access for users and allow issuing remote commands. A strong authentication protocol is also key for running automated processes and file transfers without risking an invasion or data breach.
 
 **References:**
 
