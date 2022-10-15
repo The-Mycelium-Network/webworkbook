@@ -169,3 +169,19 @@ SFTP is quickly taking the place of FTP and FTPS. The reason for this is that SF
 * [SFTP-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
 * [GeeksforGeeks: Difference between FTPS and SFTP](https://www.geeksforgeeks.org/difference-between-ftps-and-sftp/)
 * [SmartFile: The Difference Between SFTP & FTPS and Why It Matters](https://www.smartfile.com/blog/difference-between-sftp-ftps/)
+
+### DNS **Domain Name System**
+
+A standard protocol that works like a phonebook - it manages the mapping between names (websites) and numbers (IP addresses). This means that you don't need to remember complicated IP addresses, because DNS translates your domain name (URL) to the corresponding address. There are 3 types of DNS servers, namely; primary, secondary and caching servers. 
+
+The primary server is used for all administrative tasks.
+The secondary is the backup server.
+The caching server only performs cached-query services.
+
+**Refrances**
+
+* [How DNS Works](https://howdns.works/ep1/)
+
+* [NS1](https://ns1.com/resources/what-is-dns)
+
+* [Microsoft](https://learn.microsoft.com/en-us/windows/win32/dns/dns-servers)
