@@ -18,10 +18,10 @@ With the help of other programmers, Github Copilot and CodeQL, the result of you
 
 GitHub is the most popular platform for open-source enthusiasts to collaborate on code projects by using the software Git. GitHub is very user friendly, even complete beginners can learn to use GitHub in hardly any time at all. This capability can help new programmers build up their resumes by doing Pull Requests, and interacting with the community in other ways.
 
-With GitHub’s Codespaces collaborators can easily access their entire development stack in the cloud. This includes popular tools such as Visual Studio Code.
+### Key GitHub features
 
-Copilot is an AI editor willing to help you write your code in the form of making suggestions for whole lines or entire functions.
-
-Discussions are dedicated spaces for communities to connect and discuss their latest projects.
-
-Pull Requests lets you share any changes you made to a branch in a repository, and opens discussions and Code Review around that potential change.
+- With [GitHub’s Codespaces](https://github.com/features/codespaces), collaborators can easily access their entire development stack in the cloud. This includes popular tools such as Visual Studio Code.
+- [GitHub Copilot](https://github.com/features/copilot) is your machine learning pair programmer.
+- [Discussions](https://github.com/features/discussions) are dedicated spaces for communities to connect, discuss, and support each other while creating great open-source software projects.
+- [Pull Requests](https://github.com/features/code-review) allows teams to collaborate on changes and new features. The built-in code review tools make it easy to ensure code meets quality and code standards.
+- [GitHub Actions](https://github.com/features/actions) enables maintainers to automate common tasks and create continuous integration and deployment pipelines. All this can be done with existing Actions in the GitHub marketplace, or you can write your own custom Actions.
