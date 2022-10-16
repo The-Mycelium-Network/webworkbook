@@ -185,3 +185,14 @@ The caching server only performs cached-query services.
 * [NS1](https://ns1.com/resources/what-is-dns)
 
 * [Microsoft](https://learn.microsoft.com/en-us/windows/win32/dns/dns-servers)
+
+### SSL **Secure Sockets Layer** 
+A networking protocol that keeps your internet connection secure and ensures that data being transfered remains private. It scrambles the data making it impossible to read to anyone trying to intercept it.
+SSL uses cryptographic keys to encrypt information; a public key encrypts the data and a private key decrypts it.
+
+* [TechTarget](https://www.techtarget.com/searchsecurity/definition/Secure-Sockets-Layer-SSL)
+
+* [CloudFlare](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
+
+* [CsOonLine](https://www.csoonline.com/article/3246212/what-is-ssl-how-ssl-certificates-enable-encrypted-communication.html)
+ 
