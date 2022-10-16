@@ -196,3 +196,12 @@ SSL uses cryptographic keys to encrypt information; a public key encrypts the da
 
 * [CsOonLine](https://www.csoonline.com/article/3246212/what-is-ssl-how-ssl-certificates-enable-encrypted-communication.html)
  
+### SSH (Secure Shell)
+
+SSH provides a secure method to remotely login from one computer to another, with several alternative options for authentication, along with a strong encryption to protect the integrity of the communications. SSH is used in conjunction with the SFTP protocol, due to the high level of security it provides. This protocol is used in a corporate network in the following ways:
+
+In corporate networks, SSH protocol can be used to guarantee secure access for users and allow issuing remote commands. A strong authentication protocol is also key for running automated processes and file transfers without risking an invasion or data breach.
+
+**References:**
+
+* [SSH-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
