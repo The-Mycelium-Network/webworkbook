@@ -25,7 +25,8 @@ Fun fact! According to a [2022 Developer Survey from Stack Overflow](https://sur
 
 The creation of Git is an interesting story which holds its origins within the Linux kernel community. Between 1991-2002, changes made to Linux were passed around as patches and archived files; developers even mailed code to one another using disks or flash drives. The creator of Linux, Linus Torvalds, needed to apply these changes to his own source tree. Because of this, the only way to see a history of changes was to compare the large files between releases. 
 
-In 2002, the Linux kernel community began using BitKeeper (developed by BitMover), which was a proprietary DVCS. In order for the community to use this paid software for free, there were limitations. BitMover would control metadata, as well as disallow Linux developers to be involved in competing revision control projects while using BitKeeper. This relationship ended when Andrew Tridgell reverse-engineered BitKeeper. BitMover was not happy about this.
+In 2002, the Linux kernel community began using [BitKeeper](http://www.bitkeeper.org/)(developed by BitMover), which was a proprietary DVCS. In order for the community to use this paid software for free, there were limitations. BitMover would control metadata, as well as disallow Linux developers to be involved in competing revision control projects while using BitKeeper. This relationship ended when Andrew Tridgell reverse-engineered BitKeeper. BitMover was not happy about this.
+
 
 Torvalds decided to figure out another solution. In 2005, Git was born! Since its creation, a community of developers have continued to improve and maintain the project.
 
