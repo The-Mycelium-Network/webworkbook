@@ -9,7 +9,8 @@ menu:
     name: What is Git?
 ---
 
-## So, What is Git?
+## So, what is Git?
+
 
 Git is a distributed version control system (DVCS) that allows you to create a local copy of a remote repository. Creating a local copy enables you to create changes without interfering with original project files. Git is great for collaborations, offline work, or even branching off with new or risky ideas. A terminal is required to use Git however, there are web hosted versions, such as GitHub and GitLab.
 
@@ -39,7 +40,7 @@ Need help? Git can be quite the learning curve. Below are some resources to help
 
 * [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE&ab_channel=ProgrammingwithMosh): This video walks beginners through the basics of Git, starting with the setup.
 
-* [Git Cheatsheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf): This is a short pdf file from GitLab with some basic Git commands and a brief explanation of each.
+* [Git Cheatsheet (PDF Download - 86KB)](https://about.gitlab.com/images/press/git-cheat-sheet.pdf): This is a short PDF file from GitLab with some basic Git commands and a brief explanation of each.
 * [50 Git Commands](https://www.freecodecamp.org/news/git-cheat-sheet/): 50 Git commands with brief explanations
 * [Dangit, Git!?!](https://dangitgit.com/en): Git got ya down? Mess up? We’ve all been there. This guide helps you get back into the flow (and keeps you from panicking) by helping you fix some common Git mistakes.
 
