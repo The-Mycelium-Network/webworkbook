@@ -8,7 +8,7 @@ menu:
     name: What is GitHub?
 ---
 
-{{< youtube w3jLJU7DT5E title="What is GitHub?" >}}
+{{< youtube id="w3jLJU7DT5E" title="What is GitHub?" >}}
 
 Github is a hub for programmers, designers, technical writers, open-source enthusiasts, and the AI companions that can help them along the way.
 
