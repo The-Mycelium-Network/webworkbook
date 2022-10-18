@@ -23,7 +23,8 @@ The phone line cannot be in use during the connection and when making the connec
 _Listen to the sound of a dial up connection_
 
 {{< youtube id="gsNaR6FRuO0" title="Listen to the sound of a dial up connection" >}}
-###More Resources
+
+### More Resources Info
 
 [Computer Hope](https://www.computerhope.com/jargon/d/dialup.htm)
 
