@@ -1,7 +1,7 @@
 ---
-title: What are protocols?
-keywords: internet protocols, types of internet protocols, internet protocols explained
-description: A collection of informational pieces that explain internet protocols.
+title: Types of internet connections
+keywords: internet connections, types of internet connections, internet connections explained
+description: A collection of informational pieces that explains different types of internet connection.
 menu:
   main:
     parent: topics
