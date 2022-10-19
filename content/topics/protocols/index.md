@@ -100,15 +100,6 @@ SMTP servers handle the sending, receiving, and relaying of emails that will lat
   * [Eye on Tech: What is SMTP (Simple Mail Transfer Protocol)?](https://www.youtube.com/watch?v=AoqvWgazf50)
   * [TECHNOPHILE: What Is SMTP ? How it Works !](https://www.youtube.com/watch?v=O-Xho7gEWj0)
 
-### UDP
-
-UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensitive applications like online gaming, video playback, and Domain Name System (DNS) lookups. UDP uses a [connectionless communication](https://en.wikipedia.org/wiki/Connectionless_communication) model, which speeds up communication between client and server. Unlike Transmission Control Protocol(TCP), the order of packets (called datagrams) is not guaranteed, nor are there any checks to ensure packets are delivered. Because a formal connection is not made, UDP can leave one open to *[DDoS attacks](https://www.fortinet.com/resources/cyberglossary/ddos-attack)* through UDP [flood attacks](https://www.cloudflare.com/learning/ddos/udp-flood-ddos-attack/).
-
-**References:**
-
-* [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
-* [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
-
 ### POP3
 
 POP3 stands for Post Office Protocol 3 - it is used to retrieve mail from a remote server over a network and save it on a local device. Once an e-mail has been retrieved, it is usually deleted from the server, freeing up space. Many providers, however, give an option to keep the original copies intact. All data and attachments are saved on your local device, making it possible to access the messages while offline. Most mail servers use POP3 because of its simplicity and also due to it being well-supported.
@@ -118,7 +109,44 @@ POP3 stands for Post Office Protocol 3 - it is used to retrieve mail from a remo
 * [Techtarget](https://www.techtarget.com/whatis/definition/POP3-Post-Office-Protocol-3)
 * [Hostinger](https://www.hostinger.com/tutorials/email/pop3-imap-smtp-protocols-explained-ports)
 
-=======
+### IMAP (Internet Message Access Protocol)
+
+This is one of a few methods used to retrieve e-mails. This method makes it possible for the user to access messages from any device and e-mails will also be synchronized across all devices that are being used. IMAP stores e-mails on an external server allowing remote access. The same goes for outgoing messages. Messages are only downloaded once you click on them and attachments are not automatically downloaded either, making IMAP fast, efficient and versatile.
+
+**References:**
+
+* [WhatIsMyIPAddress: What is a IMAP?](https://whatismyipaddress.com/imap)
+* [JavaTpoint: IMAP Protocol](https://www.javatpoint.com/imap-protocol)
+* [GeeksforGeeks: Internet Message Access Protocol (IMAP)](https://www.geeksforgeeks.org/internet-message-access-protocol-imap/)
+
+### UDP
+
+UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensitive applications like online gaming, video playback, and Domain Name System (DNS) lookups. UDP uses a [connectionless communication](https://en.wikipedia.org/wiki/Connectionless_communication) model, which speeds up communication between client and server. Unlike Transmission Control Protocol(TCP), the order of packets (called datagrams) is not guaranteed, nor are there any checks to ensure packets are delivered. Because a formal connection is not made, UDP can leave one open to *[DDoS attacks](https://www.fortinet.com/resources/cyberglossary/ddos-attack)* through UDP [flood attacks](https://www.cloudflare.com/learning/ddos/udp-flood-ddos-attack/).
+
+**References:**
+
+* [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
+* [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
+
+### FTP (File Transfer Protocol)
+
+File Transfer Protocol is used to allow computers to transfer files from one system to another using the internet. FTP works by opening a connection between 2 parties, which is made via two distinct communication channels: the control channel handles FTP commands and responses; while the data channel is where the sharing happens once the server has granted you access.
+
+The FTP is insecure by current standards and it's considered a legacy protocol, the main issue being the fact that it does not encrypt the data sent, allowing data interception. There are protocols more appropriate to safely transfer data, such as:
+
+- FTPS (FTP Secure), which adds a security layer on top of FTP using cryptographic protocols like SSL or TLS;
+- SFTP (SSH File Transfer Protocol), which runs over the SSH Protocol and provides encrypted data communication.
+
+**References:**
+
+- [MDN Web Docs Glossary: FTP](https://developer.mozilla.org/en-US/docs/Glossary/FTP)
+
+**See also:**
+
+- [Hostinger Tutorials: What is FTP - FTP Explained for Beginners](https://www.hostinger.com/tutorials/what-is-ftp)
+- Videos:
+  - [CertBros: FTP Explained | File Transfer Protocol | Cisco CCNA 200-301](https://www.youtube.com/watch?v=L9aZpg0ip70)
+
 ### FTPS (File Transfer Protocol Secure)
 
 FTP Secure is used to securely transfer data between users, companies or clients. It's an extension of the File Transfer Protocol (FTP) which adds support for a security layer. FTPS uses cryptographic protocols like SSL (Secure Sockets Layer) or TLS (Transport Layer Security), although the former is now deprecated due to security vulnerabilities.
@@ -130,12 +158,24 @@ In a nutshell, the data gets encrypted before it's sent, preventing it from bein
 - [Precisely glossary: FTPS](https://www.precisely.com/glossary/ftps)
 - [Wikipedia: FTPS](https://en.wikipedia.org/wiki/FTPS)
 
-### IMAP (Internet Message Access Protocol)
+### SFTP (SSH File Transfer Protocol)
 
-This is one of a few methods used to retrieve e-mails. This method makes it possible for the user to access messages from any device and e-mails will also be synchronized across all devices that are being used. IMAP stores e-mails on an external server allowing remote access. The same goes for outgoing messages. Messages are only downloaded once you click on them and attachments are not automatically downloaded either, making IMAP fast, efficient and versatile.
+SFTP functions pretty much the same as FTPS protocol, both being protocols used to transfer files safely through an encrypted connection. The difference is the encryption type and the authentication process used. While FTPS just adds a security layer around the legacy FTP protocol, SFTP is an extension of the SSH protocol, which allows remote machines to verify each other before connecting and transferring data. 
+
+SFTP is quickly taking the place of FTP and FTPS. The reason for this is that SFTP is more secure, more reliable and easier to configure. This means that there are not many reasons to use any other protocol in its place. SFTP is protected against [man-in-the-middle-attacks](https://www.ssh.com/academy/attack/man-in-the-middle) and even [password sniffing](https://www.ssh.com/academy/attack/password-sniffing).
 
 **References:**
 
-* [WhatIsMyIPAddress: What is a IMAP?](https://whatismyipaddress.com/imap)
-* [JavaTpoint: IMAP Protocol](https://www.javatpoint.com/imap-protocol)
-* [GeeksforGeeks: Internet Message Access Protocol (IMAP)](https://www.geeksforgeeks.org/internet-message-access-protocol-imap/)
+* [SFTP-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
+* [GeeksforGeeks: Difference between FTPS and SFTP](https://www.geeksforgeeks.org/difference-between-ftps-and-sftp/)
+* [SmartFile: The Difference Between SFTP & FTPS and Why It Matters](https://www.smartfile.com/blog/difference-between-sftp-ftps/)
+
+### SSH (Secure Shell)
+
+SSH provides a secure method to remotely login from one computer to another, with several alternative options for authentication, along with a strong encryption to protect the integrity of the communications. SSH is used in conjunction with the SFTP protocol, due to the high level of security it provides. This protocol is used in a corporate network in the following ways:
+
+In corporate networks, SSH protocol can be used to guarantee secure access for users and allow issuing remote commands. A strong authentication protocol is also key for running automated processes and file transfers without risking an invasion or data breach.
+
+**References:**
+
+* [SSH-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
