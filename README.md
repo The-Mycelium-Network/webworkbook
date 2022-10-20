@@ -1,6 +1,7 @@
 # web://workbook
 
 A curated, digital, interactive book outlining a course of study with curated notes and exercises.
+Helping you build a web accessible by all through best practices, ethics, compassion and sustainability.
 
 ## What are we trying to achieve?
 
