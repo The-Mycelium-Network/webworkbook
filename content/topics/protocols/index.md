@@ -191,7 +191,5 @@ The caching server only performs cached-query services.
 **Refrances**
 
 * [How DNS Works](https://howdns.works/ep1/)
-
 * [NS1](https://ns1.com/resources/what-is-dns)
-
 * [Microsoft](https://learn.microsoft.com/en-us/windows/win32/dns/dns-servers)
