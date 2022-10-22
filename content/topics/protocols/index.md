@@ -184,7 +184,7 @@ In corporate networks, SSH protocol can be used to guarantee secure access for u
 
 {{< youtube id="ZghMPWGXexs&ab" title="A video explaining SSL encryption and decryption" >}}
 
-This is a networking protocol that keeps your internet connection secure and ensures that data being transfered remains private. This protocols' main use is securing the connection/communication between your browser and a web server. It does this by scrambling the data and making it impossible to read to anyone trying to intercept it. SSL uses cryptographic keys to encrypt information; a public key encrypts the data and a private key decrypts it (making it readable). An SSL certificate enables websites to move from HTTP to HTTPS.
+Secure socket layer (SSL) is a networking protocol that keeps your internet connection secure and ensures that the data being transferred remains private. This protocol's main use is securing the connection/communication between your browser and a web server. It does this by scrambling the data and making it impossible to read to anyone trying to intercept it. SSL uses cryptographic keys to encrypt information; a public key encrypts the data, and a private key decrypts it (making it readable). An SSL certificate enables websites to move from HTTP to HTTPS.
 
 **References:**
 
