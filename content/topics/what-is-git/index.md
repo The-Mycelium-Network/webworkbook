@@ -12,7 +12,12 @@ menu:
 ## So, what is Git?
 
 
-Git is a distributed version control system (DVCS) that allows you to create a local copy of a remote repository. Creating a local copy enables you to create changes without interfering with original project files. Git is great for collaborations, offline work, or even branching off with new or risky ideas. A terminal is required to use Git however, there are web hosted versions, such as GitHub and GitLab.
+Git is a free and open-source Distributed Version Control System (DVCS). It allows tracking changes in any set of files with speed and efficiency. Git supports multiple local branches that can be entirely independent of each other. Creating a local copy enables you to work on changes without interfering with the original project files. Git is great for collaborations, offline work, or even branching off with new or risky ideas. 
+
+Most developers use Git from the command line, but plenty of modern IDE's come with Git integrations (like [VSCode](https://code.visualstudio.com/docs/sourcecontrol/overview), for instance), as well as there are a lot of [GUI tools for users looking for platform-specific experience](https://git-scm.com/downloads/guis/).
+
+There are also many platforms for hosting Git repositories, so they can be used collaboratively over the internet, such as [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/) and [BitBucket](https://bitbucket.org/).
+
 
 Fun fact! According to a [2022 Developer Survey from Stack Overflow](https://survey.stackoverflow.co/2022/#section-version-control-version-control-systems), just under 97% of professional developers use Git. 
 
@@ -28,7 +33,8 @@ The creation of Git is an interesting story which holds its origins within the L
 In 2002, the Linux kernel community began using [BitKeeper](http://www.bitkeeper.org/)(developed by BitMover), which was a proprietary DVCS. In order for the community to use this paid software for free, there were limitations. BitMover would control metadata, as well as disallow Linux developers to be involved in competing revision control projects while using BitKeeper. This relationship ended when Andrew Tridgell reverse-engineered BitKeeper. BitMover was not happy about this.
 
 
-Torvalds decided to figure out another solution. In 2005, Git was born! Since its creation, a community of developers have continued to improve and maintain the project.
+Torvalds decided to figure out another solution. In 2005, Git was born! Since its creation, a community of developers has continued to improve and maintain the project. BitKeeper, on the other hand, [went open source in 2016](https://lwn.net/Articles/686986/), after more than a decade of trying to maintain relevance in the shadow of Git.
+
 
 **References and additional reading:**  
 1. [A Short History of Git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
