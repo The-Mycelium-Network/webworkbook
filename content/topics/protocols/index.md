@@ -179,3 +179,15 @@ In corporate networks, SSH protocol can be used to guarantee secure access for u
 **References:**
 
 * [SSH-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
+
+### SSL **Secure Sockets Layer**
+
+{{< youtube id="ZghMPWGXexs&ab" title="SSL Encryption and decrytion" >}}
+
+This is a networking protocol that keeps your internet connection secure and ensures that data being transfered remains private. This protocols' main use is securing the connection/communication between your browser and a web server. It does this by scrambling the data and making it impossible to read to anyone trying to intercept it. SSL uses cryptographic keys to encrypt information; a public key encrypts the data and a private key decrypts it (making it readable). An SSL certificate enables websites to move from HTTP to HTTPS.
+
+**References:**
+
+* [TechTarget](htttps://www.techtarget.com/searchsecurity/definition/Secure-Sockets-Layer-SSL)
+* [CloudFlare](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
+* [CSoOnline](https://www.csoonline.com/article/3246212/what-is-ssl-how-ssl-certificates-enable-encrypted-communication.html)
