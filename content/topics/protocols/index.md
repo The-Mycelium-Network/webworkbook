@@ -191,9 +191,7 @@ A networking protocol that keeps your internet connection secure and ensures tha
 SSL uses cryptographic keys to encrypt information; a public key encrypts the data and a private key decrypts it.
 
 * [TechTarget](https://www.techtarget.com/searchsecurity/definition/Secure-Sockets-Layer-SSL)
-
 * [CloudFlare](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
-
 * [CsOonLine](https://www.csoonline.com/article/3246212/what-is-ssl-how-ssl-certificates-enable-encrypted-communication.html)
  
 ### SSH (Secure Shell)
