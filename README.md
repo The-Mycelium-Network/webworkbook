@@ -5,7 +5,37 @@ Helping you build a web accessible by all through best practices, ethics, compas
 
 ## What are we trying to achieve?
 
-Read the [project charter](https://github.com/orgs/The-Mycelium-Network/discussions/7).
+The Mycelium Network community of contributors will define and lead the project. Outside collaboration is welcomed and encouraged, but final decisions will be made by the members of the Mycelium network.
+
+## Why
+
+After conversations with various individuals at different stages of their web developer careers, a clear need has been identified. There is no lack of learning material available on the web. The real problem is finding a path through the forest. web://workbook aims to be a curated, digital, interactive book outlining a course of study with curated notes and exercises.
+
+## What
+
+The web://workbook will be a website freely available to all. The deliverables are as follows:
+
+- A public roadmap
+- Design of a logo
+- Registration of a domain name
+- A basic design system that includes a color palette, typography, and individual page components such as buttons, navigation, and page layout
+- A statically generated website backed by Hugo, Contentful, GitHub, and Netlify
+
+The site's content will be arranged around three verticals with some overlap. These are:
+
+- Topics: A topic-based approach such as "What is the Internet?", "What is open source?", "How do I create a responsive webpage header?"
+- Technology: This will cover open web technologies such as HTML, CSS, and JavaScript.
+- Pathways: Community-curated pathways for specific career paths. Examples include; front-end engineers, full-stack engineers, UX engineers, and technical writers.
+
+## How
+
+We will use an Agile process and a RACI(Responsible, Accountable, Consulted, Informed) model to ensure everyone understands their responsibilities, timeline, and deliverables. We will use GitHub [projects](https://github.com/orgs/The-Mycelium-Network/projects/1/views/1), [issues](https://github.com/The-Mycelium-Network/webworkbook/issues), and a pull request model for all work. All work will be done in the open using a remote-first approach.
+
+Open-source software should be our first choice unless a paid product will ease contribution or productivity. This project should give back to those open-source projects we rely on. This can be monetary, but as an open-source project, it can also take the form of contributions back to the upstream projects.
+
+The core team members will meet weekly to discuss blockers and clear the path for others. As a remote-first project, attendance is encouraged but not mandatory. We acknowledge team members are spread across the globe, and trust among all members is key to the project's success.
+
+Above all, the happiness of team members and our readers is paramount.
 
 ## Contributing
 
