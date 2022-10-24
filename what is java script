@@ -1,0 +1,113 @@
+What is JavaScript?
+JavaScript was initially created to “make web pages alive”.
+
+The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
+
+Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run.
+
+In this aspect, JavaScript is very different from another language called Java.
+JavaScript is a lightweight programming language that web developers commonly use to create more dynamic interactions when developing web pages, applications, servers, and or even games.
+
+Developers generally use JavaScript alongside HTML and CSS The scripting language works well with CSS in formatting HTML elements. However, JavaScript still maintains user interaction, something that CSS cannot do by itself.
+
+JavaScript’s implementations within the web, mobile application, and game development make the scripting language worth learning. You can do so via learning platforms like BitDegree or by exploring free JavaScript templates and applications on code hosting platforms like GitHub.
+
+HISTORY OF JAVASCRIPT
+
+Brendan Eich created JavaScript in 1995 while working at Netscape Communications Corporation. As the web gained popularity, a gradual demand for client-side scripting languages developed. Most Internet users were connected to a 28.8 kbps modem at the time, even when web pages were growing in size and complexity. Netscape began to think seriously about developing client-side scripting language early, at a cutting-edge time of technological innovation, to handle simple processing. Brendan Eich is the person who worked for Netscape at that time and began developing a scripting language named "Mocha", later named "LiveScript", for the release of Netscape Navigator 2 in 1995. He was fascinated by Java, Scheme, and Self. Netscape, for some time, made the best browser of that time and enjoyed market supremacy.
+When JavaScript first appeared in 1995, with effective use of handling some of the input validation that had previously been left over to server-side languages like Perl. Before that time, the server required a round-trip to determine whether a required field was left blank or an invalid value entered. Netscape Navigator wanted to change that with the introduction of JavaScript. The potential and ability to handle some necessary validation on the client was an exciting fresh feature when telephone modems were common and well known. The associated slow speeds turned every trip to the server into an exercise in patience.
+
+Later in 1995, as Microsoft rise-up to the competition with the threat the web created, the project Internet Explorer started in an all-out attempt to wrestle control of the emerging platform from Netscape.
+
+Gradually Microsoft became a mortal threat, compelling Netscape with its Internet Explorer. Slowly, a standardization process started to develop to prevent Microsoft from gaining the power of the JavaScript language. Furthermore, they partnered with Sun to influence their shared interest in breaking the Microsoft monopoly.
+
+Brendan Eich has assumed that Sun on board decided to surf the tidal wave of building up surrounding Java and position JavaScript as the companion language with Java, in a similar manner, Visual Basic was to C++. Netscape's Mocha was later named JavaScript and aimed to turn the web into a full-blown application platform.
+
+Unfortunately for JavaScript, its early marketing position outlasted its usefulness and later became a mark on market acceptance because it emerged as a viable technology.
+
+ROLE IN DEVELOPMENT
+The initial versions of the scripting language were for internal use only. After Netscape submitted it to ECMA International as a standard specification for web browsers, JavaScript pioneered the release of ECMAScript.
+
+It was a general-purpose scripting language to ensure web pages’ interoperability across different browsers and devices.
+
+JavaScript has continued to grow alongside new browsers like Mozilla Firefox and Google Chrome since then. The latter even started developing the first modern JavaScript engine, called V8, which compiles bytecode into native machine code.
+
+Today, JavaScript has plenty of frameworks and libraries to simplify complex projects, such as AngularJS, jQuery, and ReactJS.
+
+Originally run on the client-side, the JavaScript implementation has branched out to the server-side after the Node.js development ‒ a cross-platform server environment built on the Google Chrome JavaScript V8 engine.
+
+While it caters to web-based programs the most, JavaScript programming features have other implementations in different areas. The following are several basic uses of JavaScript.
+
+1. Web and Mobile Apps
+The development of JavaScript frameworks, consisting of JavaScript code libraries, allows developers to use pre-written JavaScript code in their projects. It saves them time and effort from having to code programming features from scratch.
+
+Each JavaScript framework has features that aim to simplify the development and debugging process.
+
+For example, front-end JavaScript frameworks like jQuery and ReactJS improve design efficiency. They allow developers to reuse and update code components without affecting each other, function or value-wise.
+
+Meanwhile, mobile application development frameworks such as Cordova and Titanium make it possible to create native or hybrid applications.
+
+The implementation of JavaScript code in Node.js also plays an important role in web development. Node.js can reduce server response time due to its single-threaded nature and non-blocking architecture and omit delays.
+
+Node.js is also lightweight enough to serve as a scalable tool for microservices, allowing you to develop a single app comprising small services with individual processes.
+
+2. Building Web Servers and Server Applications
+Through Node.js, JavaScript lets developers build web servers and back-end infrastructure, saving you time and effort in web server creation.
+
+The built-in HTTP module allows you to develop a basic HTTP server that displays plain text when users access a web page. You can use either the Node.js own web server, Node-OS, or third-party ones like Microsoft Internet Information Services (IIS) and Apache to handle the HTTP requests.
+
+Keep in mind that Node-OS works best on the Linux operating systems since it’s built on top of the Linux kernel.
+
+3. Interactive Behavior on Websites
+One of JavaScript’s core functions is adding dynamicity to web pages. This includes displaying animations, modifying text visibility, and creating dropdown menus.
+
+While you can use only HTML and CSS code to build a website, it will only have a static display. With JavaScript, a user can interact with web pages and have a better browsing experience.
+
+Additionally, JavaScript lets you change HTML content and attribute values without reloading the web page first. This is because JavaScript supports the following data types:
+
+String ‒ consists of textual data written inside quotes. For example, “Hello world”, ‘Hello world’, and “Display ‘Hello world’ text”.
+Number ‒ covers integer and floating-point numbers between (2^53 – 1) and -(2^53 – 1).
+Boolean ‒ a logical data type with true and false values.
+BigInt ‒ represents integer data of arbitrary length.
+Null ‒ contains a null value.
+Undefined ‒ includes declared but not assigned variables.
+Symbol ‒ provides unique identifiers for objects.
+Object ‒ for complex data structures written with curly braces. For example, {item:”Book”, information:”biography”}.
+Primitive data types, consisting of all data types except object, can only store a single data. Meanwhile, the object data type can contain a collection of values.
+
+With JavaScript, you can also improve users’ web browsing experience using cookies. Creating, reading, and deleting cookies in JavaScript requires the document.cookie property, which functions as the getter and setter of the cookies’ values.
+
+4. Game Development
+JavaScript can help you build a game if used with HTML5 and an Application Programming Interface (API) like WebGL. Plenty of JavaScript-based game engines like Phaser, GDevelop, and Kiwi.js are available for rendering graphics, code recycling, and cross-platform applications.
+
+Some of the games made with JavaScript game engines include Angry Birds, The Wizard, and 2048.
+ 
+STANDARDS
+The beauty of JavaScript Standard Style is that it's simple. No one wants to maintain multiple hundred-line style configuration files for every module/project they work on. Enough of this madness!
+
+This module saves you (and others!) time in three ways:
+
+No configuration. The easiest way to enforce consistent style in your project. Just drop it in.
+Automatically format code. Just run standard --fix and say goodbye to messy or inconsistent code.
+Catch style issues & programmer errors early. Save precious code review time by eliminating back-and-forth between reviewer & contributor.
+Adopting standard style means ranking the importance of code clarity and community conventions higher than personal style. This might not make sense for 100% of projects and development cultures, however open source can be a hostile place for newbies. Setting up clear, automated contributor expectations makes a project healthier.
+
+For more info, see the conference talk "Write Perfect Code with Standard and ESLint". In this talk, you'll learn about linting, when to use standard versus eslint, and how prettier compares to standard.
+
+Suggested 
+
+reading 
+https://www.bing.com/ck/a?!&&p=9d0f31f14250e70bJmltdHM9MTY2NjQ4MzIwMCZpZ3VpZD0zM2E2MWRhYS03MjNhLTZlODEtMmFlMC0wYzc0NzM5NzZmYjkmaW5zaWQ9NTI4Ng&ptn=3&hsh=3&fclid=33a61daa-723a-6e81-2ae0-0c7473976fb9&psq=suggestion+TO+LEARN+JAVA+script&u=a1aHR0cHM6Ly93d3cuamF2YXRwb2ludC5jb20vamF2YXNjcmlwdC10dXRvcmlhbA&ntb=1
+https://www.bing.com/ck/a?!&&p=3c16168b5ebda22eJmltdHM9MTY2NjQ4MzIwMCZpZ3VpZD0zM2E2MWRhYS03MjNhLTZlODEtMmFlMC0wYzc0NzM5NzZmYjkmaW5zaWQ9NTIwOQ&ptn=3&hsh=3&fclid=33a61daa-723a-6e81-2ae0-0c7473976fb9&psq=suggestion+TO+LEARN+JAVA+script&u=a1aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvamF2YXNjcmlwdC1hdXRvLWNvbXBsZXRlLXN1Z2dlc3Rpb24tZmVhdHVyZS8&ntb=1
+
+
+video
+https://www.bing.com/aclk?ld=e8qoW2cWgCu8OsZCPFcZyiLDVUCUzCMxd4sEnmzZ53LXsd2dWI5RT9u0I6Iag8CUT8HzisAGfw9DwreVzt_lGHllAu2G0-65ALH7D-SNQ1bRlzIQF4CdiwT-UBAwjo-mCxsJYqnOrDpwKoOpM6PdO9KYhENdfKngkdz71T7c3HazCtdPEohkXujvyg7Ir-299ZHuPiOA&u=aHR0cHMlM2ElMmYlMmZ3d3cudWRlbXkuY29tJTJmODUxNzEyJTJmJTNmdXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkdWRlbXlhZHMlMjZ1dG1fY2FtcGFpZ24lM2RCRy1Mb25nVGFpbF9sYS5FTl9jYy5JTkRJQSUyNnV0bV9jb250ZW50JTNkZGVhbDQ1ODQlMjZ1dG1fdGVybSUzZF8uX2FnXzEyMjI2NTczNDM0MzY1MjZfLl9hZF9fLl9rd18lMjUyQmxlYXJuJTI1MjAlMjUyQmphdmFzY3JpcHRfLl9kZV9jXy5fZG1fXy5fcGxfXy5fdGlfa3dkLTc2NDE2Mzk2OTc0MTkwJTNhbG9jLTkwXy5fbGlfMTU1MzY5Xy5fcGRfXy5fJTI2bWF0Y2h0eXBlJTNkcCUyNm1zY2xraWQlM2Q3MGU0YmYzNzYyOWQxOGYzZDJkOGRjNjI5MmI4MWFmMg&rlid=70e4bf37629d18f3d2d8dc6292b81af2&ntb=1
+https://www.bing.com/aclk?ld=e8Sq7d8DC9cYp9IkjjfLS38TVUCUxSte_ohtKrEP5EDgXIfMKjp1TfkDZXg2FoaFtYUFpSyciQeRXaweFx7YFYQX4Zn2S0Qea_dY3HjlsLz4LnN0VikMMx_EVp3RcQKy-xxAf1jq-P6fe79xtgIeToC_jDdaNM1gom7npIWJ1-Tz7BL9Ytu9tU-akKM1UEwmCsq-SX5A&u=aHR0cHMlM2ElMmYlMmZ3d3cuY291cnNlcmEub3JnJTJmY291cnNlcyUzZnF1ZXJ5JTNkamF2YXNjcmlwdCUyNnV0bV9zb3VyY2UlM2RiZyUyNnV0bV9tZWRpdW0lM2RzZW0lMjZ1dG1fY2FtcGFpZ24lM2RCMkNfSU5ESUFfX19GVENPRl9fYXJ0ZV9iaW5nX2JyYW5kZWQlMjZ1dG1fY29udGVudCUzZEIyQ19JTkRJQV9fX0ZUQ09GX19hcnRlX2JpbmdfYnJhbmRlZCUyNmNhbXBhaWduaWQlM2Q0MTUzNzQwMjYlMjZhZGdyb3VwaWQlM2QxMjIxNTU3ODk0NzM0MDI5JTI2ZGV2aWNlJTNkYyUyNmtleXdvcmQlM2RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5jb3Vyc2VyYS5vcmclMjUyRiUyNm1hdGNodHlwZSUzZGIlMjZuZXR3b3JrJTNkbyUyNmRldmljZW1vZGVsJTNkJTI2YWRwb3N0aW9uJTNkJTI2Y3JlYXRpdmVpZCUzZCUyNmhpZGVfbW9iaWxlX3Byb21vJTI2bXNjbGtpZCUzZDUyOWRlOGFlNzhhMTEzYjFmOWExOGJmYjg4ODQ3ODMwJTI2dXRtX3Rlcm0lM2RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5jb3Vyc2VyYS5vcmclMjUyRg&rlid=529de8ae78a113b1f9a18bfb88847830&ntb=1
+
+			
+			
+			
+			
+			
+			
