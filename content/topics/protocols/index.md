@@ -89,16 +89,16 @@ SMTP servers handle the sending, receiving, and relaying of emails that will lat
 
 **References:**
 
-* [MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/SMTP)
-* [Wikipedia](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
-* [GeeksforGeeks](https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/)
+- [MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/SMTP)
+- [Wikipedia](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/)
 
 **See also:**
 
-* [Postmark: Everything you need to know about SMTP](https://postmarkapp.com/guides/everything-you-need-to-know-about-smtp)
-* Videos:
-  * [Eye on Tech: What is SMTP (Simple Mail Transfer Protocol)?](https://www.youtube.com/watch?v=AoqvWgazf50)
-  * [TECHNOPHILE: What Is SMTP ? How it Works !](https://www.youtube.com/watch?v=O-Xho7gEWj0)
+- [Postmark: Everything you need to know about SMTP](https://postmarkapp.com/guides/everything-you-need-to-know-about-smtp)
+- Videos:
+  - [Eye on Tech: What is SMTP (Simple Mail Transfer Protocol)?](https://www.youtube.com/watch?v=AoqvWgazf50)
+  - [TECHNOPHILE: What Is SMTP ? How it Works !](https://www.youtube.com/watch?v=O-Xho7gEWj0)
 
 ### POP3
 
@@ -106,8 +106,8 @@ POP3 stands for Post Office Protocol 3 - it is used to retrieve mail from a remo
 
 **References:**
 
-* [Techtarget](https://www.techtarget.com/whatis/definition/POP3-Post-Office-Protocol-3)
-* [Hostinger](https://www.hostinger.com/tutorials/email/pop3-imap-smtp-protocols-explained-ports)
+- [Techtarget](https://www.techtarget.com/whatis/definition/POP3-Post-Office-Protocol-3)
+- [Hostinger](https://www.hostinger.com/tutorials/email/pop3-imap-smtp-protocols-explained-ports)
 
 ### IMAP (Internet Message Access Protocol)
 
@@ -115,18 +115,18 @@ This is one of a few methods used to retrieve e-mails. This method makes it poss
 
 **References:**
 
-* [WhatIsMyIPAddress: What is a IMAP?](https://whatismyipaddress.com/imap)
-* [JavaTpoint: IMAP Protocol](https://www.javatpoint.com/imap-protocol)
-* [GeeksforGeeks: Internet Message Access Protocol (IMAP)](https://www.geeksforgeeks.org/internet-message-access-protocol-imap/)
+- [WhatIsMyIPAddress: What is a IMAP?](https://whatismyipaddress.com/imap)
+- [JavaTpoint: IMAP Protocol](https://www.javatpoint.com/imap-protocol)
+- [GeeksforGeeks: Internet Message Access Protocol (IMAP)](https://www.geeksforgeeks.org/internet-message-access-protocol-imap/)
 
 ### UDP
 
-UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensitive applications like online gaming, video playback, and Domain Name System (DNS) lookups. UDP uses a [connectionless communication](https://en.wikipedia.org/wiki/Connectionless_communication) model, which speeds up communication between client and server. Unlike Transmission Control Protocol(TCP), the order of packets (called datagrams) is not guaranteed, nor are there any checks to ensure packets are delivered. Because a formal connection is not made, UDP can leave one open to *[DDoS attacks](https://www.fortinet.com/resources/cyberglossary/ddos-attack)* through UDP [flood attacks](https://www.cloudflare.com/learning/ddos/udp-flood-ddos-attack/).
+UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensitive applications like online gaming, video playback, and Domain Name System (DNS) lookups. UDP uses a [connectionless communication](https://en.wikipedia.org/wiki/Connectionless_communication) model, which speeds up communication between client and server. Unlike Transmission Control Protocol(TCP), the order of packets (called datagrams) is not guaranteed, nor are there any checks to ensure packets are delivered. Because a formal connection is not made, UDP can leave one open to _[DDoS attacks](https://www.fortinet.com/resources/cyberglossary/ddos-attack)_ through UDP [flood attacks](https://www.cloudflare.com/learning/ddos/udp-flood-ddos-attack/).
 
 **References:**
 
-* [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
-* [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
+- [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
+- [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
 
 ### FTP (File Transfer Protocol)
 
@@ -160,15 +160,15 @@ In a nutshell, the data gets encrypted before it's sent, preventing it from bein
 
 ### SFTP (SSH File Transfer Protocol)
 
-SFTP functions pretty much the same as FTPS protocol, both being protocols used to transfer files safely through an encrypted connection. The difference is the encryption type and the authentication process used. While FTPS just adds a security layer around the legacy FTP protocol, SFTP is an extension of the SSH protocol, which allows remote machines to verify each other before connecting and transferring data. 
+SFTP functions pretty much the same as FTPS protocol, both being protocols used to transfer files safely through an encrypted connection. The difference is the encryption type and the authentication process used. While FTPS just adds a security layer around the legacy FTP protocol, SFTP is an extension of the SSH protocol, which allows remote machines to verify each other before connecting and transferring data.
 
 SFTP is quickly taking the place of FTP and FTPS. The reason for this is that SFTP is more secure, more reliable and easier to configure. This means that there are not many reasons to use any other protocol in its place. SFTP is protected against [man-in-the-middle-attacks](https://www.ssh.com/academy/attack/man-in-the-middle) and even [password sniffing](https://www.ssh.com/academy/attack/password-sniffing).
 
 **References:**
 
-* [SFTP-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
-* [GeeksforGeeks: Difference between FTPS and SFTP](https://www.geeksforgeeks.org/difference-between-ftps-and-sftp/)
-* [SmartFile: The Difference Between SFTP & FTPS and Why It Matters](https://www.smartfile.com/blog/difference-between-sftp-ftps/)
+- [SFTP-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
+- [GeeksforGeeks: Difference between FTPS and SFTP](https://www.geeksforgeeks.org/difference-between-ftps-and-sftp/)
+- [SmartFile: The Difference Between SFTP & FTPS and Why It Matters](https://www.smartfile.com/blog/difference-between-sftp-ftps/)
 
 ### SSH (Secure Shell)
 
@@ -178,7 +178,7 @@ In corporate networks, SSH protocol can be used to guarantee secure access for u
 
 **References:**
 
-* [SSH-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
+- [SSH-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
 
 ### SSL **Secure Sockets Layer**
 
@@ -188,6 +188,19 @@ Secure socket layer (SSL) is a networking protocol that keeps your internet conn
 
 **References:**
 
-* [TechTarget](htttps://www.techtarget.com/searchsecurity/definition/Secure-Sockets-Layer-SSL)
-* [CloudFlare](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
-* [CSoOnline](https://www.csoonline.com/article/3246212/what-is-ssl-how-ssl-certificates-enable-encrypted-communication.html)
+- [TechTarget](htttps://www.techtarget.com/searchsecurity/definition/Secure-Sockets-Layer-SSL)
+- [CloudFlare](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
+- [CSoOnline](https://www.csoonline.com/article/3246212/what-is-ssl-how-ssl-certificates-enable-encrypted-communication.html)
+
+### HTTP **Hyper Text Transfer Protocol**
+
+HTTP is the protocol of the internet,it is responsible for communication between web severs and clients. It is simple and designed to be human readable. This protocol is also extensible,thanks to HTTP [headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers), it is easy to expand and experiment with.
+
+HTTP is stateless,this means that each request that the server receives is independent and not linked to any prior requests.
+
+HTTP and all extended protocols based on HTTP are established on the [request and response model](https://medium.com/@reemshakes/http-request-response-flow-for-dummies-a0f52af83af3),meaning the client sends a _request_ to the server,and the server sends back a _response_,if the request fails the response will be an error code. A well know error code is 404 - Not Found. For the full list of HTTP error codes click [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+
+**References:**
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#http_is_stateless_but_not_sessionless)
+[Traversy Media - HTTP Crash Course](https://www.youtube.com/watch?v=iYM2zFP3Zn0&ab_channel=TraversyMedia)
+[OmniSecu Tutorials](https://www.omnisecu.com/tcpip/http-hypertext-transfer-protocol-request-response.php)
