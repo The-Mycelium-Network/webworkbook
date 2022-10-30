@@ -192,6 +192,6 @@ A standard protocol that works like a phonebook - it manages the mapping between
 
 **References:**
 
-* [How DNS Works](https://howdns.works/ep1/)
-* [NS1](https://ns1.com/resources/what-is-dns)
-* [Microsoft](https://learn.microsoft.com/en-us/windows/win32/dns/dns-servers)
+* [DNSimple: How DNS Works](https://howdns.works/)
+* [NS1: What is DNS? DNS Explained](https://ns1.com/resources/what-is-dns)
+* [Microsoft Learn: DNS Servers](https://learn.microsoft.com/en-us/windows/win32/dns/dns-servers)
