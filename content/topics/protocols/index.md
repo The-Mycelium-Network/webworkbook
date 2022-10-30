@@ -190,7 +190,7 @@ A standard protocol that works like a phonebook - it manages the mapping between
 * The secondary is the backup server.
 * The caching server only performs cached-query services.
 
-**Refrances**
+**References:**
 
 * [How DNS Works](https://howdns.works/ep1/)
 * [NS1](https://ns1.com/resources/what-is-dns)
