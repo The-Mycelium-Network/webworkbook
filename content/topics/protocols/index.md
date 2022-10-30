@@ -186,9 +186,9 @@ In corporate networks, SSH protocol can be used to guarantee secure access for u
 
 A standard protocol that works like a phonebook - it manages the mapping between names (websites) and numbers (IP addresses). This means that you don't need to remember complicated IP addresses, because DNS translates your domain name (URL) to the corresponding address. There are 3 types of DNS servers, namely: primary, secondary and caching servers. 
 
-*The primary server is used for all administrative tasks.
-*The secondary is the backup server.
-*The caching server only performs cached-query services.
+* The primary server is used for all administrative tasks.
+* The secondary is the backup server.
+* The caching server only performs cached-query services.
 
 **Refrances**
 
