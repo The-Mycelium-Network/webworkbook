@@ -191,3 +191,19 @@ Secure socket layer (SSL) is a networking protocol that keeps your internet conn
 * [TechTarget](htttps://www.techtarget.com/searchsecurity/definition/Secure-Sockets-Layer-SSL)
 * [CloudFlare](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
 * [CSoOnline](https://www.csoonline.com/article/3246212/what-is-ssl-how-ssl-certificates-enable-encrypted-communication.html)
+
+### DNS **Domain Name System**
+
+{{< youtube id="5o8CwafCxnU&t=2s" title="A video explaining IP addresses and DNS" >}}
+
+A standard protocol that works like a phonebook - it manages the mapping between names (websites) and numbers (IP addresses). This means that you don't need to remember complicated IP addresses, because DNS translates your domain name (URL) to the corresponding address. There are 3 types of DNS servers, namely: primary, secondary and caching servers. 
+
+* The primary server is used for all administrative tasks.
+* The secondary is the backup server.
+* The caching server only performs cached-query services.
+
+**References:**
+
+* [DNSimple: How DNS Works](https://howdns.works/)
+* [NS1: What is DNS? DNS Explained](https://ns1.com/resources/what-is-dns)
+* [Microsoft Learn: DNS Servers](https://learn.microsoft.com/en-us/windows/win32/dns/dns-servers)
