@@ -204,3 +204,14 @@ HTTP and all extended protocols based on HTTP are established on the [request an
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#http_is_stateless_but_not_sessionless)
 [Traversy Media - HTTP Crash Course](https://www.youtube.com/watch?v=iYM2zFP3Zn0&ab_channel=TraversyMedia)
 [OmniSecu Tutorials](https://www.omnisecu.com/tcpip/http-hypertext-transfer-protocol-request-response.php)
+
+### HTTPS
+
+{{< youtube id="nOmT_5hqgPk" title="HTTP vs HTTPS">}}
+
+HTTPS is a secure version of the HTTP protocol that is encrypted and authenticated by the SSL/TLS protocol. This connection is secure thus allowing clients to safely exchange sensitive data with a server,like banking and credit card details
+
+**References:**
+[SSL](https://www.ssl.com/faqs/what-is-https/)
+[Tech Target](https://www.techtarget.com/searchsoftwarequality/definition/HTTPS)
+[Cloudflare](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
