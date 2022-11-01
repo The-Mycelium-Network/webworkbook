@@ -215,3 +215,59 @@ HTTPS is a secure version of the HTTP protocol that is encrypted and authenticat
 [SSL.com](https://www.ssl.com/faqs/what-is-https/)
 [Tech Target](https://www.techtarget.com/searchsoftwarequality/definition/HTTPS)
 [Cloudflare.com](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
+
+### DNS **Domain Name System**
+
+{{< youtube id="5o8CwafCxnU&t=2s" title="A video explaining IP addresses and DNS" >}}
+
+A standard protocol that works like a phonebook - it manages the mapping between names (websites) and numbers (IP addresses). This means that you don't need to remember complicated IP addresses, because DNS translates your domain name (URL) to the corresponding address. There are 3 types of DNS servers, namely: primary, secondary and caching servers.
+
+- The primary server is used for all administrative tasks.
+- The secondary is the backup server.
+- The caching server only performs cached-query services.
+
+**References:**
+
+- [DNSimple: How DNS Works](https://howdns.works/)
+- [NS1: What is DNS? DNS Explained](https://ns1.com/resources/what-is-dns)
+- [Microsoft Learn: DNS Servers](https://learn.microsoft.com/en-us/windows/win32/dns/dns-servers)
+
+### DNS **Domain Name System**
+
+{{< youtube id="5o8CwafCxnU&t=2s" title="A video explaining IP addresses and DNS" >}}
+
+A standard protocol that works like a phonebook - it manages the mapping between names (websites) and numbers (IP addresses). This means that you don't need to remember complicated IP addresses, because DNS translates your domain name (URL) to the corresponding address. There are 3 types of DNS servers, namely: primary, secondary and caching servers.
+
+- The primary server is used for all administrative tasks.
+- The secondary is the backup server.
+- The caching server only performs cached-query services.
+
+**References:**
+
+- [DNSimple: How DNS Works](https://howdns.works/)
+- [NS1: What is DNS? DNS Explained](https://ns1.com/resources/what-is-dns)
+- [Microsoft Learn: DNS Servers](https://learn.microsoft.com/en-us/windows/win32/dns/dns-servers)
+
+### HTTP **Hyper Text Transfer Protocol**
+
+HTTP is the protocol of the internet,it is responsible for communication between web severs and clients. It is simple and designed to be human readable. This protocol is also extensible,thanks to HTTP [headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers), it is easy to expand and experiment with.
+
+HTTP is stateless,this means that each request that the server receives is independent and not linked to any prior requests.
+
+HTTP and all extended protocols based on HTTP are established on the [request and response model](https://medium.com/@reemshakes/http-request-response-flow-for-dummies-a0f52af83af3),meaning the client sends a _request_ to the server,and the server sends back a _response_,if the request fails the response will be an error code. A well know error code is 404 - Not Found. For the full list of HTTP error codes click [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+
+**References:**
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#http_is_stateless_but_not_sessionless)
+[Traversy Media - HTTP Crash Course](https://www.youtube.com/watch?v=iYM2zFP3Zn0&ab_channel=TraversyMedia)
+[OmniSecu Tutorials](https://www.omnisecu.com/tcpip/http-hypertext-transfer-protocol-request-response.php)
+
+### HTTPS
+
+{{< youtube id="nOmT_5hqgPk" title="HTTP vs HTTPS">}}
+
+HTTPS is a secure version of the HTTP protocol that is encrypted and authenticated by the SSL/TLS protocol. This connection is secure thus allowing clients to safely exchange sensitive data with a server,like banking and credit card details
+
+**References:**
+[SSL.com](https://www.ssl.com/faqs/what-is-https/)
+[Tech Target](https://www.techtarget.com/searchsoftwarequality/definition/HTTPS)
+[Cloudflare.com](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
