@@ -212,6 +212,6 @@ HTTP and all extended protocols based on HTTP are established on the [request an
 HTTPS is a secure version of the HTTP protocol that is encrypted and authenticated by the SSL/TLS protocol. This connection is secure thus allowing clients to safely exchange sensitive data with a server,like banking and credit card details
 
 **References:**
-[SSL](https://www.ssl.com/faqs/what-is-https/)
+[SSL.com](https://www.ssl.com/faqs/what-is-https/)
 [Tech Target](https://www.techtarget.com/searchsoftwarequality/definition/HTTPS)
-[Cloudflare](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
+[Cloudflare.com](https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/)
