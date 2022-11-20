@@ -128,17 +128,19 @@ UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensi
 
 **References:**
 
-- [MDN-UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
-- [Cloudflare-UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
+- [MDN Web Docs: UDP](https://developer.mozilla.org/en-US/docs/Glossary/UDP)
+- [Cloudflare: UDP](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
 
 ### FTP (File Transfer Protocol)
 
 File Transfer Protocol is used to allow computers to transfer files from one system to another using the internet. FTP works by opening a connection between 2 parties, which is made via two distinct communication channels: the control channel handles FTP commands and responses; while the data channel is where the sharing happens once the server has granted you access.
 
-The FTP is insecure by current standards and it's considered a legacy protocol, the main issue being the fact that it does not encrypt the data sent, allowing data interception. There are protocols more appropriate to safely transfer data, such as:
+FTP is insecure by current standards, and it's considered a legacy protocol, the main issue is that it does not encrypt the data sent, allowing data interception. There are protocols more appropriate to safely transfer data, such as:
 
-- FTPS (FTP Secure), which adds a security layer on top of FTP using cryptographic protocols like SSL or TLS;
-- SFTP (SSH File Transfer Protocol), which runs over the SSH Protocol and provides encrypted data communication.
+
+- FTP Secure (FTPS), which adds a security layer on top of FTP using cryptographic protocols like SSL or TLS;
+- SSH File Transfer Protocol (SFTP) runs over the SSH Protocol and provides encrypted data communication.
+
 
 **References:**
 
@@ -152,9 +154,11 @@ The FTP is insecure by current standards and it's considered a legacy protocol, 
 
 ### FTPS (File Transfer Protocol Secure)
 
-FTP Secure is used to securely transfer data between users, companies or clients. It's an extension of the File Transfer Protocol (FTP) which adds support for a security layer. FTPS uses cryptographic protocols like SSL (Secure Sockets Layer) or TLS (Transport Layer Security), although the former is now deprecated due to security vulnerabilities.
+FTP Secure is used to securely transfer data between computer systems. It's an extension of the File Transfer Protocol (FTP) which adds support for a security layer. FTPS uses cryptographic protocols like SSL (Secure Sockets Layer) or TLS (Transport Layer Security), although the former is now deprecated due to security vulnerabilities.
 
-In a nutshell, the data gets encrypted before it's sent, preventing it from being intercepted and read by third parties. FTP make use of client certification and server identities when transferring the data from point A to point B, and various security measures and encryption strategies are used to connect with foreign servers and verify authenticity before sending any data.
+
+In a nutshell, the data gets encrypted before it's sent, preventing it from being intercepted and read by third parties. FTPS uses client certification and server identities when transferring the data from point A to point B, and various security measures and encryption strategies are used to connect with foreign servers and verify authenticity before sending any data.
+
 
 **References:**
 
