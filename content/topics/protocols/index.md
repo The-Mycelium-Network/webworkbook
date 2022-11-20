@@ -8,7 +8,8 @@ menu:
     name: Protocols
 ---
 
-## What are protocols exactly?
+## What are protocols?
+
 
 Internet Protocols, or Network Protocols, are rules and guidelines for sending data between computers connected to the Internet.
 
@@ -100,7 +101,8 @@ SMTP servers handle the sending, receiving, and relaying of emails that will lat
   - [Eye on Tech: What is SMTP (Simple Mail Transfer Protocol)?](https://www.youtube.com/watch?v=AoqvWgazf50)
   - [TECHNOPHILE: What Is SMTP ? How it Works !](https://www.youtube.com/watch?v=O-Xho7gEWj0)
 
-### POP3
+### POP3 (Post Office Protocol 3)
+
 
 POP3 stands for Post Office Protocol 3 - it is used to retrieve mail from a remote server over a network and save it on a local device. Once an e-mail has been retrieved, it is usually deleted from the server, freeing up space. Many providers, however, give an option to keep the original copies intact. All data and attachments are saved on your local device, making it possible to access the messages while offline. Most mail servers use POP3 because of its simplicity and also due to it being well-supported.
 
@@ -119,7 +121,8 @@ This is one of a few methods used to retrieve e-mails. This method makes it poss
 - [JavaTpoint: IMAP Protocol](https://www.javatpoint.com/imap-protocol)
 - [GeeksforGeeks: Internet Message Access Protocol (IMAP)](https://www.geeksforgeeks.org/internet-message-access-protocol-imap/)
 
-### UDP
+### UDP (User Datagram Protocol)
+
 
 UDP stands for User Datagram Protocol. UDP is specifically chosen for time-sensitive applications like online gaming, video playback, and Domain Name System (DNS) lookups. UDP uses a [connectionless communication](https://en.wikipedia.org/wiki/Connectionless_communication) model, which speeds up communication between client and server. Unlike Transmission Control Protocol(TCP), the order of packets (called datagrams) is not guaranteed, nor are there any checks to ensure packets are delivered. Because a formal connection is not made, UDP can leave one open to _[DDoS attacks](https://www.fortinet.com/resources/cyberglossary/ddos-attack)_ through UDP [flood attacks](https://www.cloudflare.com/learning/ddos/udp-flood-ddos-attack/).
 
@@ -166,7 +169,8 @@ SFTP is quickly taking the place of FTP and FTPS. The reason for this is that SF
 
 **References:**
 
-- [SFTP-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
+- [SSH Academy: SFTP File Transfer Protocol - get SFTP client & server](https://www.ssh.com/academy/ssh/sftp)
+
 - [GeeksforGeeks: Difference between FTPS and SFTP](https://www.geeksforgeeks.org/difference-between-ftps-and-sftp/)
 - [SmartFile: The Difference Between SFTP & FTPS and Why It Matters](https://www.smartfile.com/blog/difference-between-sftp-ftps/)
 
@@ -174,13 +178,16 @@ SFTP is quickly taking the place of FTP and FTPS. The reason for this is that SF
 
 SSH provides a secure method to remotely login from one computer to another, with several alternative options for authentication, along with a strong encryption to protect the integrity of the communications. SSH is used in conjunction with the SFTP protocol, due to the high level of security it provides. This protocol is used in a corporate network in the following ways:
 
-In corporate networks, SSH protocol can be used to guarantee secure access for users and allow issuing remote commands. A strong authentication protocol is also key for running automated processes and file transfers without risking an invasion or data breach.
+In corporate networks, SSH protocol can be used to guarantee secure access for users and allow issuing of remote commands. A strong authentication protocol is also key for running automated processes and file transfers without risking an invasion or data breach.
+
 
 **References:**
 
-- [SSH-SSH Academy](https://www.ssh.com/academy/ssh/protocol)
+- [SSH Academy: SSH Protocol – Secure Remote Login and File Transfer](https://www.ssh.com/academy/ssh/protocol)
 
-### SSL **Secure Sockets Layer**
+
+### SSL (Secure Sockets Layer)
+
 
 {{< youtube id="ZghMPWGXexs&ab" title="A video explaining SSL encryption and decryption" >}}
 
@@ -188,9 +195,12 @@ Secure socket layer (SSL) is a networking protocol that keeps your internet conn
 
 **References:**
 
-- [TechTarget](htttps://www.techtarget.com/searchsecurity/definition/Secure-Sockets-Layer-SSL)
-- [CloudFlare](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
-- [CSoOnline](https://www.csoonline.com/article/3246212/what-is-ssl-how-ssl-certificates-enable-encrypted-communication.html)
+- [TechTarget: SSL (secure sockets layer)](https://www.techtarget.com/searchsecurity/definition/Secure-Sockets-Layer-SSL)
+
+- [CloudFlare: What is SSL? | SSL definition](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
+
+- [CSoOnline: What is SSL? How SSL certificates enable encrypted communication](https://www.csoonline.com/article/3246212/what-is-ssl-how-ssl-certificates-enable-encrypted-communication.html)
+
 
 ### HTTP **Hyper Text Transfer Protocol**
 
