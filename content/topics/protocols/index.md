@@ -225,7 +225,8 @@ HTTP and all extended protocols based on HTTP are established on the [request an
 
 {{< youtube id="nOmT_5hqgPk" title="HTTP vs HTTPS">}}
 
-HTTPS is a secure version of the HTTP protocol that is encrypted and authenticated by the SSL/TLS protocol. This connection is secure thus allowing clients to safely exchange sensitive data with a server,like banking and credit card details
+HTTPS is a secure version of the HTTP protocol that is encrypted and authenticated by the SSL/TLS protocol. This connection is secure, thus allowing clients to safely exchange sensitive data with a server, like banking and credit card details.
+
 
 **References:**
 - [SSL.com: What is HTTPS?](https://www.ssl.com/faqs/what-is-https/)
