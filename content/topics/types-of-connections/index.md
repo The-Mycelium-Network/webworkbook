@@ -54,7 +54,7 @@ DSL (Digital Subscriber Line) operates over standard copper telephone lines like
 
 !(https://media.geeksforgeeks.org/wp-content/uploads/Capture-86.png)
 
-There are two types of DSL,namely Assymetric DSL (ADSL) and Symmetric DSL (SDSL).
+There are two types of DSL, namely Assymetric DSL (ADSL) and Symmetric DSL (SDSL).
 
 _To learn more about DSL,_ [click here](https://www.lifewire.com/different-types-of-dsl-technology-817522)
 
