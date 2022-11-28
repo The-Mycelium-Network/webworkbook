@@ -217,9 +217,10 @@ HTTP and all extended protocols based on HTTP are established on the [request an
 
 
 **References:**
-[MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#http_is_stateless_but_not_sessionless)
-[Traversy Media - HTTP Crash Course](https://www.youtube.com/watch?v=iYM2zFP3Zn0&ab_channel=TraversyMedia)
-[OmniSecu Tutorials](https://www.omnisecu.com/tcpip/http-hypertext-transfer-protocol-request-response.php)
+- [MDN Web Docs: An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [Traversy Media: HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0&ab_channel=TraversyMedia)
+- [OmniSecu Tutorials: Hypertext Transfer Protocol (HTTP) - Request and Response](https://www.omnisecu.com/tcpip/http-hypertext-transfer-protocol-request-response.php)
+
 
 ### HTTPS
 
