@@ -206,7 +206,8 @@ Secure socket layer (SSL) is a networking protocol that keeps your internet conn
 - [CSoOnline: What is SSL? How SSL certificates enable encrypted communication](https://www.csoonline.com/article/3246212/what-is-ssl-how-ssl-certificates-enable-encrypted-communication.html)
 
 
-### HTTP **Hyper Text Transfer Protocol**
+### HTTP (Hyper Text Transfer Protocol)
+
 
 HTTP is the protocol of the internet,it is responsible for communication between web severs and clients. It is simple and designed to be human readable. This protocol is also extensible,thanks to HTTP [headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers), it is easy to expand and experiment with.
 
