@@ -212,7 +212,8 @@ HTTP is the protocol of the internet,it is responsible for communication between
 
 HTTP is stateless,this means that each request that the server receives is independent and not linked to any prior requests.
 
-HTTP and all extended protocols based on HTTP are established on the [request and response model](https://medium.com/@reemshakes/http-request-response-flow-for-dummies-a0f52af83af3),meaning the client sends a _request_ to the server,and the server sends back a _response_,if the request fails the response will be an error code. A well know error code is 404 - Not Found. For the full list of HTTP error codes click [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+HTTP and all extended protocols based on HTTP are established on the [request and response model](https://medium.com/@reemshakes/http-request-response-flow-for-dummies-a0f52af83af3), meaning the client sends a `request` to the server, and the server sends back a `response` if the request fails the response will be an error code. A well-known error code is 404 - Not Found. For the full list of HTTP error codes, click [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status).
+
 
 **References:**
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#http_is_stateless_but_not_sessionless)
