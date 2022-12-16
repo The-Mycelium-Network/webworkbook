@@ -1,0 +1,20 @@
+.girdle,
+ul.girdle {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: var(--layout-max-mobile-width);
+}
+
+@media screen and (min-width: 47.9375em) {
+  .girdle,
+  ul.girdle {
+    max-width: var(--layout-max-tablet-width);
+  }
+}
+
+@media screen and (min-width: 83.9375em) {
+  .girdle,
+  ul.girdle {
+    max-width: var(--layout-max-desktop-width);
+  }
+}

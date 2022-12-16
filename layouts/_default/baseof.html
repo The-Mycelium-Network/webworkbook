@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-{{- partial "head.html" . -}}
+  {{- partial "head.html" . -}}
 
-<body {{ if .IsHome }}class="home" {{ end }}>
-    {{- partial "header.html" . -}}
-    {{- block "main" . }}{{- end }}
-    {{- partial "footer.html" . -}}
-</body>
-
+  <body {{ if .IsHome }}class="home" {{ end }}>
+    {{- block "main" . }}{{- end }} {{- partial "footer.html" . -}}
+  </body>
 </html>

@@ -1,0 +1,22 @@
+.homepage-header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: var(--layout-spacing-default) 0;
+}
+
+.homepage-header a {
+  text-decoration: none;
+}
+
+.homepage-header a:hover,
+.homepage-header a:focus,
+.homepage-header a:active {
+  text-decoration: underline;
+}
+
+.homepage-header-github {
+  height: 1.5rem;
+  margin-inline-end: var(--layout-spacing-narrow);
+  width: 1.5rem;
+}

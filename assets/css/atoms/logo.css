@@ -1,0 +1,21 @@
+.logo {
+  display: block;
+  background: transparent url("/media/logo.svg") 0 0 / 274px 41px no-repeat;
+  width: 274px;
+  height: 41px;
+}
+
+.homepage .logo {
+  background-size: 350px 180px;
+  height: 180px;
+  width: 350px;
+}
+
+.page-footer .logo {
+  background-color: var(--color-neutral-inverted);
+  background-image: none;
+  background-size: 165px 25px;
+  height: 25px;
+  mask-image: url("/media/wordmark.svg");
+  width: 165px;
+}
