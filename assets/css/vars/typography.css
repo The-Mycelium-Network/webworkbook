@@ -1,0 +1,19 @@
+:root {
+  /* serif font family fallback */
+  --font-family-heading-fallback: Georgia, "Times New Roman", Times, serif;
+  --font-family-heading: "Raleway", var(--font-family-heading-fallback);
+
+  --font-family-fallback: -apple-system, BlinkMacSystemFont, Ubuntu,
+    "Helvetica Neue", sans-serif;
+  --font-family-copy: "Domine", var(--font-family-fallback);
+
+  --font-size-xxl: 4rem;
+  --font-size-xl: 3rem;
+  --font-size-large: 2.2rem;
+  --font-size-medium: 1.2rem;
+  --font-size-default: 1rem;
+  --font-size-tiny: 0.9rem;
+
+  --line-height-copy: 1.75;
+  --line-height-heading: 1.25;
+}

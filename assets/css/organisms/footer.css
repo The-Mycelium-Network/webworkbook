@@ -1,0 +1,38 @@
+.page-footer {
+  background-color: var(--color-brand-gray);
+  padding: var(--layout-spacing-default);
+}
+
+.page-footer .girdle {
+  align-items: center;
+  color: var(--color-neutral-inverted);
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-spacing-default);
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 47.9375em) {
+  .page-footer .girdle {
+    flex-direction: row;
+  }
+}
+
+.page-footer a {
+  color: var(--color-neutral-inverted);
+}
+
+.made-by {
+  max-width: 20rem;
+  text-align: center;
+}
+
+.made-by::before {
+  background-color: var(--color-neutral-inverted);
+  content: "";
+  display: block;
+  height: 2rem;
+  margin: 0 auto;
+  mask-image: url("/media/iconography/tmn-icon.svg");
+  width: 2rem;
+}

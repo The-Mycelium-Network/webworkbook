@@ -1,0 +1,16 @@
+.icon {
+  background-color: var(--color-neutral-inverted);
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.icon-discord {
+  mask-size: 1.5rem;
+  mask-image: url("/media/iconography/discord.svg");
+}
+
+.icon-github {
+  mask-size: 1.5rem;
+  mask-image: url("/media/iconography/github.svg");
+}

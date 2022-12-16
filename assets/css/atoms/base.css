@@ -1,11 +1,10 @@
 body {
-  font: 100%/1.5 Lato, sans-serif;
+  font: 100% / var(--line-height-copy) var(--font-family-copy);
 }
 
 a:link,
 a:visited {
-  color: $neutral-900;
-  padding: ($base-spacing / 4) 0;
+  color: var(--color-neutral-900);
 }
 
 a:hover,
