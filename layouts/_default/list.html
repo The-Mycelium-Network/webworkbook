@@ -1,5 +1,20 @@
+{{ define "page-header" }}
+    {{ partial "content-page-header.html" . }}
+{{ end }}
+
 {{ define "main" }}
-<main role="main">
-    {{ .Content }}
+<main class="main-content-container">
+    <div class="sidebar">
+        {{ if and (gt .WordCount 400) }}
+        <aside aria-label="Table of contents" class="page-toc">
+            {{ .TableOfContents }}
+        </aside>
+        {{ end }}
+        {{ partial "sidebar-navigation.html" . }}
+    </div>
+    
+    <article class="main-content">
+        {{ .Content }}
+    </article>
 </main>
 {{ end }}
