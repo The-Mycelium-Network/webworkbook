@@ -1,0 +1,24 @@
+.list-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-content-container {
+  padding: var(--layout-spacing-default);
+}
+
+@media screen and (min-width: 47.9375em) {
+  .main-content-container {
+    display: flex;
+    gap: var(--layout-spacing-default);
+  }
+
+  .sidebar {
+    flex: 0 0 20rem;
+  }
+
+  .main-content {
+    flex: 1 1 auto;
+  }
+}

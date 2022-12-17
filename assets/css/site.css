@@ -9,11 +9,14 @@
 @import "atoms/logo";
 @import "atoms/icons";
 
+@import "organisms/content-page-header";
+
 @import "utils/layout";
 
 @import "components/mobile-menu";
 
 @import "views/home";
+@import "views/content";
 
 @import "organisms/homepage-header";
 @import "organisms/footer";
