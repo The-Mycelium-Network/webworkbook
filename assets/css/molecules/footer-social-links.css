@@ -1,0 +1,4 @@
+.social-links {
+  display: flex;
+  gap: var(--layout-spacing-default);
+}

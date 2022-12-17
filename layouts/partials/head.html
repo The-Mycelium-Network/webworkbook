@@ -1,50 +1,83 @@
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{{ block "title" . }}{{ .Params.title }} - {{ .Site.Title }}{{ end }}</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>
+    {{ block "title" . }}{{ .Params.title }} - {{ .Site.Title }}{{ end }}
+  </title>
 
-    <meta name="keywords" content={{ delimit .Keywords " " }} />
-    <meta name="description" content="{{ .Description }}" />
+  <meta name="keywords" content={{ delimit .Keywords " " }} />
+  <meta name="description" content="{{ .Description }}" />
 
-    <link rel="canonical" href="{{ .Permalink }}" />
+  <meta name="msapplication-TileColor" content="#2b5797" />
+  <meta name="theme-color" content="#ffffff" />
 
-    <link rel="shortcut icon" href="/media/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="/media/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="/media/favicon.svg" />
+  <link rel="canonical" href="{{ .Permalink }}" />
 
-    <link rel="apple-touch-icon" href="/media/apple-touch-icon.png" />
+  <link rel="shortcut icon" href="/media/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/media/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/media/favicon.svg" />
 
-    <link rel="icon" type="image/png" sizes="192x192"
-        href="/media/android-chrome-192x192.png" />
-    <link rel="icon" type="image/png" sizes="512x512"
-        href="/media/android-chrome-512x512.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/media/favicon-32x32.png" />
+  <link rel="apple-touch-icon" href="/media/apple-touch-icon.png" />
 
-    <!--
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="{{ .Site.Title }}" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:locale" content="en-US" />
-    <meta property="og:url" content="https://github.com/project-calavera/hugo-skeleton" />
-    <meta property="og:image" content="" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="1200" />
-    <meta property="og:image:alt" content="" />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="192x192"
+    href="/media/android-chrome-192x192.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="512x512"
+    href="/media/android-chrome-512x512.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/media/favicon-32x32.png"
+  />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="" />
-    <meta name="twitter:creator" content="" />
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:description" content="" />
-    <meta name="twitter:image" content="" />
-    <meta name="twitter:image:alt" content="" />
-    -->
+  <link rel="manifest" href="/media/site.webmanifest" />
+  <link rel="mask-icon" href="/media/safari-pinned-tab.svg" color="#2b5797" />
 
-    {{ $sass := resources.Get "sass/site.scss" }}
-    {{ $options := (dict "enableSourceMap" true "outputStyle" "compressed") }}
-    {{ $styles := $sass | resources.ToCSS $options | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}"
-        integrity="{{ $styles.Data.Integrity }}">
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="{{ .Site.Title }}" />
+  <meta property="og:title" content="{{ .Site.Title }}" />
+  <meta property="og:description" content="{{ .Description }}" />
+  <meta property="og:locale" content="en-US" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta
+    property="og:image"
+    content="https://webworkbook.dev/media/og-image.png"
+  />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="1200" />
+  <meta
+    property="og:image:alt"
+    content="web workbook, A curated, digital, interactive book outlining a course of study with curated notes and exercises."
+  />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="{{ .Site.Title }}" />
+  <meta name="twitter:creator" content="The Mycelium Network" />
+  <meta name="twitter:title" content="{{ .Site.Title }}" />
+  <meta name="twitter:description" content="{{ .Description }}" />
+  <meta
+    name="twitter:image"
+    content="https://webworkbook.dev/media/og-image.png"
+  />
+  <meta
+    name="twitter:image:alt"
+    content="web workbook, A curated, digital, interactive book outlining a course of study with curated notes and exercises."
+  />
+
+  {{ $css := resources.Get "css/site.css" }} {{ $styles := $css | toCSS |
+  postCSS | minify | fingerprint }}
+  <link
+    rel="stylesheet"
+    href="{{ $styles.RelPermalink }}"
+    integrity="{{ $styles.Data.Integrity }}"
+  />
 </head>

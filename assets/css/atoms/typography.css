@@ -1,0 +1,80 @@
+@supports not (font-variation-settings: normal) {
+  @font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/typography/Raleway-Black.woff") format("woff"),
+      url("/typography/Raleway-Black.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    src: url("/typography/Raleway-ExtraBold.woff") format("woff"),
+      url("/typography/Raleway-ExtraBold.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: "Domine";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/typography/Domine-Regular.woff") format("woff"),
+      url("/typography/Domine-Regular.woff2") format("woff2");
+  }
+}
+
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-display: swap;
+    font-family: "Raleway";
+    font-weight: 100 1000;
+    font-stretch: 25% 151%;
+    src: url("/typography/Raleway-VariableFont_wght.woff2")
+        format("woff2 supports variations"),
+      url("/typography/Raleway-VariableFont_wght.woff2")
+        format("woff2-variations");
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: "Domine";
+    font-weight: 100 1000;
+    font-stretch: 25% 151%;
+    src: url("/typography/Domine-VariableFont_wght.woff2")
+        format("woff2 supports variations"),
+      url("/typography/Domine-VariableFont_wght.woff2")
+        format("woff2-variations");
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-family-heading);
+  line-height: var(--line-height-heading);
+}
+
+h1 {
+  font-size: var(--font-size-xxl);
+}
+
+h2 {
+  font-size: var(--font-size-xl);
+}
+
+h3 {
+  font-size: var(--font-size-large);
+}
+
+h4 {
+  font-size: var(--font-size-medium);
+}
+
+.small-text {
+  font-size: var(--font-size-tiny);
+}

@@ -1,0 +1,9 @@
+:root {
+  --layout-spacing-wider: 2.5rem;
+  --layout-spacing-default: 1.5rem;
+  --layout-spacing-narrow: 0.5rem;
+
+  --layout-max-mobile-width: 95%;
+  --layout-max-tablet-width: 62.5em;
+  --layout-max-desktop-width: 87.5em;
+}

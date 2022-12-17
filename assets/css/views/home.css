@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main.homepage {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--layout-spacing-default);
+}
+
+.main.homepage p {
+  margin: var(--layout-spacing-default) auto;
+  max-width: 30rem;
+  text-align: center;
+}
