@@ -5,7 +5,7 @@ description: A collection of learning topics for front end web developers.
 menu:
   main:
     identifier: topics
-    name: web://workbook Topics
+    name: Topics
 ---
 
 ## Topics

@@ -8,6 +8,8 @@ menu:
     name: What is GitHub?
 ---
 
+## What is GitHub?
+
 {{< youtube id="w3jLJU7DT5E" title="What is GitHub?" >}}
 
 Github is a hub for programmers, designers, technical writers, open-source enthusiasts, and the AI companions that can help them along the way.
@@ -25,7 +27,6 @@ GitHub is the most popular platform for open-source enthusiasts to collaborate o
 - [Discussions](https://github.com/features/discussions) are dedicated spaces for communities to connect, discuss, and support each other while creating great open-source software projects.
 - [Pull Requests](https://github.com/features/code-review) allows teams to collaborate on changes and new features. The built-in code review tools make it easy to ensure code meets quality and code standards.
 - [GitHub Actions](https://github.com/features/actions) enables maintainers to automate common tasks and create continuous integration and deployment pipelines. All this can be done with existing Actions in the GitHub marketplace, or you can write your own custom Actions.
-
 
 ## What alternatives are there to GitHub?
 
