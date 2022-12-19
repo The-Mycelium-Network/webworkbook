@@ -17,5 +17,6 @@ In the beginning, the internet was headed towards decentralization. As of today,
 In other countries such as North Korea, China, Turkey, Indonesia, and Iran, the government has direct control over the internet.
 
 **References and additional reading:**
+
 1. [Who Controls the Internet?](https://hbr.org/2016/06/who-controls-the-internet)
-2. [Trying to solve the mystery: who really controls the Internet?](https://itigic.com/trying-to-solve-the-mystery-who-really-controls-the-internet/) 
+2. [Trying to solve the mystery: who really controls the Internet?](https://itigic.com/trying-to-solve-the-mystery-who-really-controls-the-internet/)

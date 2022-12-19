@@ -6,6 +6,7 @@
 <main class="main-content-container">
     <div class="sidebar">
         {{ if and (gt .WordCount 400) }}
+        <h3>Table of contents</h3>
         <aside aria-label="Table of contents" class="page-toc">
             {{ .TableOfContents }}
         </aside>

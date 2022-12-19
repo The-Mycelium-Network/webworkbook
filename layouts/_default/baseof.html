@@ -3,8 +3,17 @@
   {{- partial "head.html" . -}}
 
   <body {{ if .IsHome }}class="home" {{ else }} class="list-page" {{ end }}>
-    {{- block "page-header" . }}{{- end }} 
-    {{- block "main" . }}{{- end }} 
+    {{ if .IsHome }}
+      {{- block "page-header" . }}{{- end }} 
+      {{- block "main" . }}{{- end }}
+    {{ else }}
+      <div class="page-content-container">
+        {{- block "page-header" . }}{{- end }} 
+        {{- block "main" . }}{{- end }}
+      </div>
+    {{ end }}
+    
     {{- partial "footer.html" . -}}
+
   </body>
 </html>
