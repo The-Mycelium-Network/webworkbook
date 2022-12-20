@@ -133,4 +133,5 @@ dist
 resources/_gen
 public/
 
-node_modules
+# TinaCMS
+.tina/
