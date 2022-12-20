@@ -4,6 +4,8 @@
   "description": "A curated, digital, interactive book outlining a course of study with curated notes and exercises.",
   "main": "index.js",
   "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "build": "tinacms build && hugo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
