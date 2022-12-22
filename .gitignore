@@ -134,4 +134,4 @@ resources/_gen
 public/
 
 # TinaCMS
-.tina/
+.tina/__generated__
