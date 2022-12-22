@@ -132,6 +132,3 @@ dist
 # Hugo
 resources/_gen
 public/
-
-# TinaCMS
-.tina/__generated__
