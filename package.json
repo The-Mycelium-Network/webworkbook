@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "tinacms dev -c \"hugo server -D\"",
     "deploy:preview": "tinacms dev -c \"hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL\"",
-    "build": "tinacms build && \"hugo --gc --minify\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tinacms build && hugo --gc --minify"
   },
   "repository": {
     "type": "git",
