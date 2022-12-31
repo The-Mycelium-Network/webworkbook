@@ -17,4 +17,4 @@ jobs:
   pr-title-linter:
     uses: project-calavera/calavera-reusable-actions/.github/workflows/pr-title-linter.yml@main
     with:
-      target-repo: "mechanical-ink/calavera-reusable-actions"
+      target-repo: "The-Mycelium-Network/webworkbook"
