@@ -1,6 +1,6 @@
 {
   "name": "webworkbook",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A curated, digital, interactive book outlining a course of study with curated notes and exercises.",
   "main": "index.js",
   "scripts": {
