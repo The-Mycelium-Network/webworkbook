@@ -1,0 +1,16 @@
+name: publish-release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish-release:
+    uses: project-calavera/calavera-reusable-actions/.github/workflows/publish-release.yml@main
+    with:
+      target-repo: "The-Mycelium-Network/webworkbook"
+      npm-publish: false
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
