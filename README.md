@@ -41,6 +41,8 @@ Above all, the happiness of team members and our readers is paramount.
 
 Please refer to [our contributing guidelines](/CONTRIBUTING.md) for more information.
 
+> NOTE: This project uses [conventional commits](https://conventionalcommits.org/)
+
 We are open-source enthusiasts! 🌱
 Feel free to get contribute to any aspect of this project.
 While doing so, be reasonable: do not just copy content from elsewhere.
