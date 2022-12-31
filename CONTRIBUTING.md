@@ -1,5 +1,7 @@
 # Contributing to web://workbook
 
+> NOTE: This project uses [conventional commits](https://conventionalcommits.org/)
+
 ## Guidelines
 
 The main intent of the web://workbook project is to be a curated resource for web developers with a focus on those new to computers and technology.
