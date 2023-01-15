@@ -4,8 +4,8 @@ keywords: javascript, web development
 description: Learn more about the scripting language that powers the world wide web.
 menu:
   main:
-    parent: web-development
-    name: What is Javascript?
+    parent: topics
+    name: what-is-javascript
 ---
 
 # What is Javascript?
