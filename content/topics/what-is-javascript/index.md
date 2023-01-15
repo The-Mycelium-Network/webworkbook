@@ -5,7 +5,7 @@ description: Learn more about the scripting language that powers the world wide 
 menu:
   main:
     parent: topics
-    name: what-is-javascript
+    name: What is Javascript?
 ---
 
 # What is Javascript?
