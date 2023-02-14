@@ -29,7 +29,7 @@
     "postcss-cli": "^10.1.0"
   },
   "dependencies": {
-    "@tinacms/cli": "^1.0.5",
+    "@tinacms/cli": "^1.2.1",
     "tinacms": "^1.1.2"
   }
 }
